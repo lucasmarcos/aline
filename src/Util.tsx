@@ -5,5 +5,5 @@ export const Article = ({ children }) => {
         {children}
       </article>
     </div>
-  )
-}
+  );
+};
