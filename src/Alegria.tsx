@@ -2,7 +2,7 @@ import { Article, P, Refs } from "./Util.js";
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-yellow-300">
       <h1 className="text-7xl text-center my-7">Alegria</h1>
       <h2 className="text-4xl text-center my-4">Vamos conversar sobre essa emoção?</h2>
     </header>
@@ -32,7 +32,8 @@ export const Alegria = () => {
       </P>
 
       <P>
-        Uma maneira de fazer isso é pensar e falar sobre nossas emoções de maneira segura, reconhecê-las, aceitá-las, e se necessário refletir e agir sobre elas, entendendo como parte da condição humana, para que possa ser vivenciada de maneira saudável.
+        Uma maneira de fazer isso é pensar e falar sobre nossas emoções de maneira segura, reconhecê-las, aceitá-las,
+        e se necessário refletir e agir sobre elas, entendendo como parte da condição humana, para que possa ser vivenciada de maneira saudável.
       </P>
 
       <P>
@@ -40,20 +41,38 @@ export const Alegria = () => {
       </P>
 
       <P>
-        Isso porque nessa primeira fase de desenvolvimento do ser humano, é possível observar a atuação das emoções de uma maneira muito límpida, pois ainda não há uma regulação emocional.
+        Isso porque nessa primeira fase de desenvolvimento do ser humano, é possível observar a atuação das emoções de uma maneira muito límpida,
+        pois ainda não há uma regulação emocional.
       </P>
 
       <P>
         O bebê irá aprender sobre emoções todos os dias com um suporte por parte de seus cuidadores, que também estão vivendo emoções constantes nesta relação.
-        Esse relacionamento é capaz de nortear o entendimento dos bebês sobre as emoções, e pode possibilitar uma maior compreensão a respeito delas, ensinando inclusive como lidar com nossas próprias emoções e os sentimentos despertados por elas.
+      </P>
+
+      <P>
+        Esse relacionamento é capaz de nortear o entendimento dos bebês sobre as emoções, e pode possibilitar uma maior compreensão a respeito delas,
+        ensinando inclusive como lidar com nossas próprias emoções e os sentimentos despertados por elas.
+      </P>
+
+      <P>
         Fato esse bem importante, tendo em vista que as emoções e os sentimentos, irão permear todas as nossas experiências enquanto seres humanos.
       </P>
 
-      <p>
-        Hoje adultos, podemos recordar de emoções durante nossa trajetória de vida, podemos nomeá-las com infindáveis nomes, dentre os quais alegria, tristeza, medo, orgulho, raiva, nojo, surpresa, culpa, vergonha, ansiedade, depressão, calma, tensão, dentre tantas outras, que aparecem sozinhas, combinadas e distintas.
+      <P>
+        Hoje adultos, podemos recordar de emoções durante nossa trajetória de vida, podemos nomeá-las com infindáveis nomes,
+        dentre os quais alegria, tristeza, medo, orgulho, raiva, nojo, surpresa, culpa, vergonha, ansiedade, depressão, calma,
+        tensão, dentre tantas outras, que aparecem sozinhas, combinadas e distintas.
+      </P>
+
+      <P>
         Podemos, ainda, pensar sobre como experienciamos nossas emoções, que sentimentos nutrimos com elas.
-        No entanto, com nossas rotinas atribuladas de estudo e trabalho, dentre todas nossas outras demandas, tendemos a experimentar as emoções, sem refletir o quanto elas podem estar influenciando em nossas formas de viver, ou sobre algo que elas possam nos dizer sobre nós, ou mesmo refletir em nossa saúde.
-      </p>
+      </P>
+
+      <P>
+        No entanto, com nossas rotinas atribuladas de estudo e trabalho, dentre todas nossas outras demandas,
+        tendemos a experimentar as emoções, sem refletir o quanto elas podem estar influenciando em nossas formas de viver,
+        ou sobre algo que elas possam nos dizer sobre nós, ou mesmo refletir em nossa saúde.
+      </P>
 
       <p>
         Durante este ano iremos direcionar nosso olhar e reflexão para emoções básicas, inatas que não dependem, inicialmente, de fatores sociais ou culturais.
