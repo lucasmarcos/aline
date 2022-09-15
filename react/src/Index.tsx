@@ -9,7 +9,6 @@ const Link = ({ page, children }) => {
 export const Index = () => {
   return (
     <div>
-      <Link page="alegria.html">Alegria</Link>
       <Link page="definicao.html">Emoções, difinições e conceitos</Link>
       <Link page="social.html">Habilidades sociais</Link>
       <Link page="final.html">Emoções, parte final</Link>
