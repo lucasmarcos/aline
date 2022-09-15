@@ -1,3 +1,5 @@
+import { Article } from "./Util.js";
+
 const Header = () => {
   return (
     <header>
@@ -37,8 +39,7 @@ const P = ({ children }) => {
 
 export const Alegria = () => {
   return (
-    <article className="text-3xl">
-
+    <Article>
       <Header/>
 
       <P>
@@ -160,6 +161,6 @@ export const Alegria = () => {
       </Refs>
 
       <Footer/>
-    </article>
+    </Article>
   );
 };
