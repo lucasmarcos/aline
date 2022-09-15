@@ -1,14 +1,14 @@
-import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
-import { Home } from "./Home.js";
+
 import { Template } from "./Template.js";
+import { Index } from "./Index.js";
 import { Alegria } from "./Alegria.js";
 
-//const page = renderToStaticMarkup(createElement(Home));
-const page = renderToStaticMarkup(
-	createElement(Template,
-		      { children: createElement(Alegria) }
-        )		     
+import { writeFile} from "fs";
+
+const page = (child) => renderToStaticMarkup(
+	Template({ title: "Alegria", children: child() })
 );
 
-console.log(`<!doctype html>${page}`);
+writeFile("site/index.html", `<!doctype html>${page(Index)}`, () => {});
+writeFile("site/alegria.html", `<!doctype html>${page(Alegria)}`, () => {});

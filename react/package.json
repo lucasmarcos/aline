@@ -1,10 +1,18 @@
 {
   "type": "module",
   "dependencies": {
+    "@types/node": "^18.7.18",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "postcss": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
+  },
+  "scripts": {
+    "build": "node ./out/main.js",
+    "watch": "tsc --watch",
+    "buildCSS": "tailwind -i src/main.css -o site/out.css --watch"
   }
 }
