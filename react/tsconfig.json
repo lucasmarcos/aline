@@ -1,0 +1,9 @@
+{
+	"include": [ "src" ],
+	"compilerOptions": {
+		"outDir": "out",
+		"target": "esnext",
+		"moduleResolution": "node",
+		"jsx": "react-jsx"
+	}
+}

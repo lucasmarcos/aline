@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
