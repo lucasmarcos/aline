@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="bg-yellow-300">
       <h1 className="text-7xl text-center my-7">Alegria</h1>
-      <h2 className="text-4xl text-center my-4">Vamos conversar sobre essa emoção?</h2>
+      <h2 className="text-4xl text-center my-4 text-bold">Vamos conversar sobre essa emoção?</h2>
     </header>
   );
 };
@@ -74,10 +74,10 @@ export const Alegria = () => {
         ou sobre algo que elas possam nos dizer sobre nós, ou mesmo refletir em nossa saúde.
       </P>
 
-      <p>
+      <P>
         Durante este ano iremos direcionar nosso olhar e reflexão para emoções básicas, inatas que não dependem, inicialmente, de fatores sociais ou culturais.
         São elas: alegria, tristeza, medo, nojo, raiva e surpresa.
-      </p>
+      </P>
 
       <p>
         A arquitetura emocional do cérebro explica as emoções
