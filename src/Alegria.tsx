@@ -1,10 +1,10 @@
-import { Article } from "./Util.js";
+import { Article, P, Refs } from "./Util.js";
 
 const Header = () => {
   return (
     <header>
-      <h1>Alegria</h1>
-      <h2>Vamos conversar sobre essa emoção?</h2>
+      <h1 className="text-7xl text-center my-7">Alegria</h1>
+      <h2 className="text-4xl text-center my-4">Vamos conversar sobre essa emoção?</h2>
     </header>
   );
 };
@@ -15,25 +15,6 @@ const Footer = () => {
       <p>Projeto "Psicoeducação na Universidade" - COGERH/NUAPE - Campus Dois Vizinhos</p>
       <p>Aline Anacleto Marchesan CRP 08/14785 - Danieli Ghedin Sartori CRP 08/14368</p>
     </footer>
-  );
-};
-
-const Refs = ({ children }) => {
-  return (
-    <div>
-      <p>REFERÊNCIAS</p>
-      {children}
-    </div>
-  );
-};
-
-const P = ({ children }) => {
-  return (
-    <div>
-      <p>
-        {children}
-      </p>
-    </div>
   );
 };
 
@@ -62,11 +43,11 @@ export const Alegria = () => {
         Isso porque nessa primeira fase de desenvolvimento do ser humano, é possível observar a atuação das emoções de uma maneira muito límpida, pois ainda não há uma regulação emocional.
       </P>
 
-      <p>
+      <P>
         O bebê irá aprender sobre emoções todos os dias com um suporte por parte de seus cuidadores, que também estão vivendo emoções constantes nesta relação.
         Esse relacionamento é capaz de nortear o entendimento dos bebês sobre as emoções, e pode possibilitar uma maior compreensão a respeito delas, ensinando inclusive como lidar com nossas próprias emoções e os sentimentos despertados por elas.
         Fato esse bem importante, tendo em vista que as emoções e os sentimentos, irão permear todas as nossas experiências enquanto seres humanos.
-      </p>
+      </P>
 
       <p>
         Hoje adultos, podemos recordar de emoções durante nossa trajetória de vida, podemos nomeá-las com infindáveis nomes, dentre os quais alegria, tristeza, medo, orgulho, raiva, nojo, surpresa, culpa, vergonha, ansiedade, depressão, calma, tensão, dentre tantas outras, que aparecem sozinhas, combinadas e distintas.

@@ -8,10 +8,11 @@
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "nodemon": "latest"
   },
   "scripts": {
-    "build": "node ./out/main.js",
+    "build": "nodemon -w out out/main.js",
     "watch": "tsc --watch",
     "buildCSS": "tailwind -i src/main.css -o site/out.css --watch"
   }

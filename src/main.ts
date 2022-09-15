@@ -34,3 +34,5 @@ writePage("nojo.html", Nojo);
 writePage("raiva.html", Raiva);
 writePage("social.html", Social);
 writePage("tristeza.html", Tristeza);
+
+console.log("built");
