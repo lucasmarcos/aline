@@ -8,7 +8,7 @@ const Link = ({ page, children }) => {
 
 export const Index = () => {
   return (
-    <div className="container mx-auto">
+    <div className="m-20">
       <Link page="definicao.html">Emoções, difinições e conceitos</Link>
       <Link page="social.html">Habilidades sociais</Link>
       <Link page="final.html">Emoções, parte final</Link>
