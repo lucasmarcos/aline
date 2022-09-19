@@ -1,10 +1,9 @@
-import { Article, P, Refs } from "./Util.js";
+import { Article, ArticleHeader, Content, P, Refs } from "./Util.js";
 
 const Header = () => {
   return (
     <header className="bg-yellow-300">
-      <h1 className="text-7xl text-center my-7">Alegria</h1>
-      <h2 className="text-4xl text-center my-4 text-bold">Vamos conversar sobre essa emoção?</h2>
+      <ArticleHeader title="Alegria" subtitle="Vamos conversar sobre essa emoção?"/>
     </header>
   );
 };
@@ -22,6 +21,7 @@ export const Alegria = () => {
   return (
     <Article>
       <Header/>
+      <Content>
 
       <P>
         A Universidade é composta por diferentes histórias, culturas, condições sociais e credos, um ambiente de diversidade.
@@ -79,7 +79,7 @@ export const Alegria = () => {
         São elas: alegria, tristeza, medo, nojo, raiva e surpresa.
       </P>
 
-      <p>
+      <P>
         A arquitetura emocional do cérebro explica as emoções
 
         <blockquote>
@@ -90,29 +90,48 @@ export const Alegria = () => {
         Convidamos vocês a refletirem conosco sobre as nuances das suas emoções, a compreender um pouco das emoções das pessoas que te cercam, para que juntos possamos nos desenvolver, nos compreender, e também, termos relações cada vez mais saudáveis .
         Para começarmos esta jornada, escolhemos uma emoção que provavelmente é a emoção que nos une aqui na Universidade, a ALEGRIA! Aquela emoção que você sentiu quando foi aprovado no SISU, no Concurso Público.
         Lembra dela?
-      </p>
+      </P>
 
-      <blockquote>
-        <p>"A alegria é uma emoção que surge como resultado de um acontecimento positivo que produz bem estar e pode ser expressa, por exemplo, por um sorriso..."</p>
-        <p>(EKMAN, p. 33, 2011).</p>
-      </blockquote>
+      <P>
+        <blockquote>
+          "A alegria é uma emoção que surge como resultado de um acontecimento positivo que produz bem estar e pode ser expressa, por exemplo, por um sorriso..." (EKMAN, p. 33, 2011).
+        </blockquote>
+      </P>
 
-      <p>
-        "... surge quando um acontecimento é avaliado como positivo".
-        "As emoções agradáveis estimulam nossa vida e geralmente nos motivam a fazer coisas boas para nós mesmos e para os outros"
-        (EKMAN, p. 33, 2011).
-      </p>
+      <P>
+        <blockquote>
+          "... surge quando um acontecimento é avaliado como positivo".
+        </blockquote>
 
-      <p>
+        <blockquote>
+          "As emoções agradáveis estimulam nossa vida e geralmente nos motivam a fazer coisas boas para nós mesmos e para os outros" (EKMAN, p. 33, 2011).
+        </blockquote>
+      </P>
+
+      <P>
         Nossa sociedade muitas vezes nos leva a acreditar que a alegria, que pode vir
         associada ao sentimento de felicidade é a ÚNICA emoção que devemos sentir e
-        exprimir. Passamos a deixar de lado, ou mesmo a patologizar emoções naturais e
-        saudáveis, que não sejam expressas por sorrisos. A alegria, assim como outras
-        emoções, é uma sensação passageira. E os sentimentos de felicidade,
+        exprimir.
+        </P>
+
+        <P>
+
+        Passamos a deixar de lado, ou mesmo a patologizar emoções naturais e
+        saudáveis, que não sejam expressas por sorrisos.
+        </P>
+
+        <P>
+
+        A alegria, assim como outras
+        emoções, é uma sensação passageira.
+      </P>
+
+      <P>
+        E os sentimentos de felicidade,
         alimentados pela alegria, são únicos, possuem sentidos muito individuais e
         complexos, pois o que torna feliz uma pessoa, pode não ser fator de felicidade
         para outra.
-      </p>
+      </P>
 
       <p>
         Imagine uma linda praia, com sol radiante, boas
@@ -121,10 +140,15 @@ export const Alegria = () => {
         pessoa que possui problemas de pele, que não pode
         estar exposta ao sol, ou alergia a areia, essa cena pode
         ser sinônimo de tristeza, de nojo, de raiva, despertando
-        sentimentos nada agradáveis. E aí, nosso primeiro
+        sentimentos nada agradáveis.
+
+        E aí, nosso primeiro
         impulso é logo um julgamento, “como pode alguém de
         férias não estar feliz numa praia em dia ensolarado”?
-        Então, convidamos você a fazer uma reflexão inversa. Se
+
+        Então, convidamos você a fazer uma reflexão inversa.
+
+        Se
         a praia não o deixa feliz, qual outro programa de férias,
         poderia lhe despertar alegria?
       </p>
@@ -142,6 +166,7 @@ export const Alegria = () => {
         iguais para todo mundo, mas somos compostos por esse misto diversificado
         de emoções e são elas que nos tornam propriamente humanos.
       </p>
+
       <p>
         Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de cada
         mês publicaremos textos que serão veiculados pelos principais meios de
@@ -161,6 +186,8 @@ export const Alegria = () => {
       </Refs>
 
       <Footer/>
+
+      </Content>
     </Article>
   );
 };

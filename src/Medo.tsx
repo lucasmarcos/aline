@@ -1,10 +1,14 @@
+import { Article, ArticleHeader, Content } from "./Util.js"
+
 export const Medo = () => {
   return (
-    <article>
-      <header>
-        <h1>Medo?</h1>
-        <h2>Que emoção é essa?!</h2>
+    <Article>
+      <header className="bg-black text-white">
+        <ArticleHeader title="Medo" subtitle="Que emoção é essa?"/>
       </header>
+
+      <Content>
+
       <p>
         O medo possui uma função básica de preservação de
         vida, pois é a partir dele que conseguimos nos antecipar
@@ -61,7 +65,7 @@ export const Medo = () => {
         Aline Anacleto Marchesan CRP 08/14785
         Danieli Ghedin Sartori CRP 08/14368
       </p>
-    </article>
-
+      </Content>
+    </Article>
   );
 };

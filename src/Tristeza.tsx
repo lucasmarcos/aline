@@ -1,10 +1,13 @@
+import { Article, ArticleHeader, Content } from "./Util.js";
+
 export const Tristeza = () => {
   return (
-    <article>
-      <header>
-        <h1>Tristeza</h1>
-        <h2>Vamos conversar sobre essa emoção?</h2>
+    <Article>
+      <header className="bg-blue-500">
+        <ArticleHeader title="Tristeza" subtitle="Vamos conversar sobre essa emoção?"/>
       </header>
+
+      <Content>
       <p>
         Depois de entender um pouco melhor como nossas emoções funcionam, falar sobre a alegria, uma emoção que desperta sentimentos de felicidade, universalmente aceito e valorizado coletivamente, chegou a hora de conversarmos sobre a tristeza.
         Uma emoção, em sua maioria, fortemente evitada, mas que possui seu aspecto funcional em nossa vida.
@@ -85,6 +88,7 @@ export const Tristeza = () => {
         Aline Anacleto Marchesan CRP 08/14785
         Danieli Ghedin Sartori CRP 08/14368
       </p>
-    </article>
+      </Content>
+    </Article>
   );
 };

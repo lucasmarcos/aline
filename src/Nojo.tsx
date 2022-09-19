@@ -1,10 +1,13 @@
+import { Article, ArticleHeader, Content } from "./Util.js";
+
 export const Nojo = () => {
   return (
-    <article>
-      <header>
-        <h1>Nojo</h1>
-        <h2>Uma emoção?</h2>
+    <Article>
+      <header className="bg-green-500">
+        <ArticleHeader title="Nojo" subtitle="Uma emoção?"/>
       </header>
+
+      <Content>
 
       <p>
         Hoje vamos falar de uma emoção que talvez não esteja elencada no rol das emoções por muitas pessoas, o Nojo!
@@ -45,6 +48,7 @@ export const Nojo = () => {
       Danieli Ghedin Sartori CRP 08/14368
 
       Quando falamos sobre a raiva, o medo e mesmo sobre a alegria percebemos que tais emoções compartilham algumas reações físicas, como respiração ofegante, taquicardia e tensão, mas quando falamos do nojo, o nosso corpo responde com um sinal diferenciado. O nojo pode desencadear náusea, que é uma resposta do organismo diante desta emoção, uma reação bem específica, o que facilita a sua identificação a partir de sua reação fisiológica. Essa reação possui a função de prevenção, de forma que nos protege de ingerirmos algo potencialmente prejudicial (BARROS, 2020, p.98).
-    </article>
+      </Content>
+    </Article>
   );
 };

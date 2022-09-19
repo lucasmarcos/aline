@@ -1,11 +1,13 @@
+import { Article, ArticleHeader, Content } from "./Util.js"
+
 export const Raiva = () => {
   return (
-    <article>
-      <header>
-        <h1>Raiva</h1>
-        <h2>Que emoção é essa?!</h2>
+    <Article>
+      <header className="bg-red-500">
+        <ArticleHeader title="Raiva" subtitle="Que emoção é essa?"/>
       </header>
 
+      <Content>
       <h3>
         Já parou pra pensar qual é a emoção despertada em nós após presenciar uma grande injustiça?
       </h3>
@@ -86,6 +88,7 @@ export const Raiva = () => {
       Danieli Ghedin Sartori CRP 08/14368
 
       Como posto por Vigotsky (2004), a emoção é um processo passível de desenvolvimento e transformação, a partir da consciência, da relação entre estados emocionais e estados intelectuais (MACHADO, FACCI e BARROCO, 2011, p.653). Ou seja, além dos aspectos biológicos, a forma como reagimos às emoções, irá depender também da percepção psicológica diante dela, e tal percepção está em constante transformação e desenvolvimento.
-    </article>
+      </Content>
+    </Article>
   );
 };

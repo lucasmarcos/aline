@@ -1,14 +1,14 @@
 const Link = ({ page, children }) => {
   return (
-    <p>
+    <div>
       <a className="underline text-xl" href={page}>{children}</a>
-    </p>
+    </div>
   );
 };
 
 export const Index = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <Link page="definicao.html">Emoções, difinições e conceitos</Link>
       <Link page="social.html">Habilidades sociais</Link>
       <Link page="final.html">Emoções, parte final</Link>

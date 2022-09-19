@@ -10,9 +10,7 @@ export const Template = ({ children }) => {
         <link rel="stylesheet" href="out.css"/>
       </head>
       <body>
-        <div className="container mx-auto">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
