@@ -1,9 +1,11 @@
 {
-	"include": [ "src" ],
-	"compilerOptions": {
-		"outDir": "out",
-		"target": "esnext",
-		"moduleResolution": "node",
-		"jsx": "react-jsx"
-	}
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "outDir": "out",
+    "target": "esnext"
+  },
+  "include": [
+    "src"
+  ]
 }
