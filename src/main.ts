@@ -14,25 +14,25 @@ import { Tristeza } from "./Tristeza.js";
 
 import { writeFile} from "fs";
 
-const page = (child) =>
+const page = (title, child) =>
   `<!doctype html>${
     renderToStaticMarkup(
-	    Template({ children: child() })
+	    Template({ title: title, children: child() })
     )
   }`;
 
-const writePage = (file, content) => {
-  writeFile(`./site/${file}`, page(content), () => {});
+const writePage = (file, title, content) => {
+  writeFile(`./site/${file}`, page(title, content), () => {});
 };
 
-writePage("index.html", Index);
-writePage("alegria.html", Alegria);
-writePage("definicao.html", Definicao);
-writePage("final.html", Final);
-writePage("medo.html", Medo);
-writePage("nojo.html", Nojo);
-writePage("raiva.html", Raiva);
-writePage("social.html", Social);
-writePage("tristeza.html", Tristeza);
+writePage("index.html", "Bem-vindo", Index);
+writePage("alegria.html", "Alegria", Alegria);
+writePage("definicao.html", "Definições", Definicao);
+writePage("final.html", "Parte final", Final);
+writePage("medo.html", "Medo", Medo);
+writePage("nojo.html", "Nojo", Nojo);
+writePage("raiva.html", "Raiva", Raiva);
+writePage("social.html", "Habilidades sociais", Social);
+writePage("tristeza.html", "Tristeza", Tristeza);
 
 console.log("built");

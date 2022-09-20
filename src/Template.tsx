@@ -1,6 +1,4 @@
-export const Template = ({ children }) => {
-  const title = "placeholder";
-
+export const Template = ({ title, children }) => {
   return (
     <html lang="pt">
       <head>
