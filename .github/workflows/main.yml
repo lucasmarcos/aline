@@ -34,3 +34,6 @@ jobs:
 
       - name: build css
         run: yarn tailwind -i src/main.css -o site/out.css
+
+      - name: build site
+        run: node out/main.js
