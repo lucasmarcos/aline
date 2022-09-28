@@ -11,7 +11,7 @@ const Link = ({ page, color = "", children }) => {
 export const Index = () => {
   return (
     <div className="text-center">
-      <Logo/>
+      <Logo />
       <Link page="definicao.html">Emoções, difinições e conceitos</Link>
       <Link page="social.html">Habilidades sociais</Link>
       <Link page="final.html">Emoções, parte final</Link>

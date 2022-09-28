@@ -2,9 +2,7 @@ import { Article, ArticleHeader, Content, P, Refs } from "./Util.js";
 
 const Header = () => {
   return (
-    <header className="bg-yellow-300">
-      <ArticleHeader title="Alegria" subtitle="Vamos conversar sobre essa emoção?"/>
-    </header>
+    <ArticleHeader className="bg-yellow-300" title="Alegria" subtitle="Vamos conversar sobre essa emoção?" />
   );
 };
 
@@ -20,7 +18,7 @@ const Footer = () => {
 export const Alegria = () => {
   return (
     <Article>
-      <Header/>
+      <Header />
       <Content>
         <P>
           A Universidade é composta por diferentes histórias, culturas, condições sociais e credos, um ambiente de diversidade.
@@ -81,10 +79,12 @@ export const Alegria = () => {
         <P>
           A arquitetura emocional do cérebro explica as emoções
 
-          <blockquote>
-            <P>"... aqueles momentos mais desconcertantes de nossas vidas, quando o sentimento esmaga toda racionalidade"</P>
-            <P>(GOLEMAN, p. 27, 2011).</P>
-          </blockquote>
+          <div className="text-2xl">
+            <blockquote >
+              <P>"... aqueles momentos mais desconcertantes de nossas vidas, quando o sentimento esmaga toda racionalidade"</P>
+              <P>(GOLEMAN, p. 27, 2011).</P>
+            </blockquote>
+          </div>
 
           Convidamos vocês a refletirem conosco sobre as nuances das suas emoções, a compreender um pouco das emoções das pessoas que te cercam, para que juntos possamos nos desenvolver, nos compreender, e também, termos relações cada vez mais saudáveis .
           Para começarmos esta jornada, escolhemos uma emoção que provavelmente é a emoção que nos une aqui na Universidade, a ALEGRIA! Aquela emoção que você sentiu quando foi aprovado no SISU, no Concurso Público.
@@ -189,7 +189,7 @@ export const Alegria = () => {
           </P>
         </Refs>
 
-        <Footer/>
+        <Footer />
       </Content>
     </Article>
   );
