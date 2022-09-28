@@ -1,11 +1,5 @@
-import { Logo } from "./Logo.js";
-
 export const Article = ({ children }) => {
-  return (
-    <article>
-      {children}
-    </article>
-  );
+  return <article>{children}</article>;
 };
 
 export const ArticleHeader = ({ className, title, subtitle }) => {
@@ -20,11 +14,7 @@ export const ArticleHeader = ({ className, title, subtitle }) => {
 };
 
 export const P = ({ children }) => {
-  return (
-    <p className="p-1 text-lg">
-      {children}
-    </p>
-  );
+  return <p className="p-1 text-lg">{children}</p>;
 };
 
 export const Refs = ({ children }) => {
@@ -37,9 +27,5 @@ export const Refs = ({ children }) => {
 };
 
 export const Content = ({ children }) => {
-  return (
-    <main className="container py-6 mx-auto w-1/2">
-      {children}
-    </main>
-  );
+  return <main className="container py-6 mx-auto w-1/2">{children}</main>;
 };
