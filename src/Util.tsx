@@ -19,15 +19,30 @@ export const Refs = ({ children }) => (
 );
 
 export const Content = ({ children }) => (
-  <main className="py-6 mx-auto max-w-lg">{children}</main>
+  <main className="py-6 mx-auto">{children}</main>
 );
 
-export const Bloco = ({ children }) => (
-  <div className="flex align-center justify-space-between py-5">
-    <div className="flex-3">{children}</div>
-    <div className="flex-1 w-20 h-20 bg-black"></div>
+const BlackCube = () => <div className="flex-1 bg-black m-3"></div>;
+
+const Bloco = ({ before = false, children }) => (
+  <div className="flex align-center justify-space-between py-5 max-w-xl mx-auto">
+    {before ? <BlackCube /> : null}
+    <div className="flex-3 max-w-lg">{children}</div>
+    {!before ? <BlackCube /> : null}
   </div>
 );
 
-export const BlocoDireta = ({ children }) => <Bloco>{children}</Bloco>;
+export const Centro = ({ children }) => (
+  <div className="text-xl py-3 max-w-xl mx-auto text-center">{children}</div>
+);
+
+export const BlocoDireta = ({ children }) => <Bloco before>{children}</Bloco>;
 export const BlocoEsquerda = ({ children }) => <Bloco>{children}</Bloco>;
+
+export const Citacao = ({ atribuicao = "", children }) => (
+  <blockquote>
+    <div className="mx-auto max-w-xl text-3xl text-bold py-3">
+      "{children}". {atribuicao != "" ? `(${atribuicao}).` : null}
+    </div>
+  </blockquote>
+);
