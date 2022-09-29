@@ -3,8 +3,8 @@ export const Article = ({ children }) => <article>{children}</article>;
 export const ArticleHeader = ({ className, title, subtitle }) => (
   <div className={className}>
     <div className="text-center p-7">
-      <h1 className="text-7xl p-1">{title}</h1>
-      <h2 className="text-4xl p-1">{subtitle}</h2>
+      <h1 className="text-7xl py-1">{title}</h1>
+      <h2 className="text-4xl py-1">{subtitle}</h2>
     </div>
   </div>
 );
