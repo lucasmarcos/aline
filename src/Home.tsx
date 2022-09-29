@@ -1,47 +1,30 @@
 const Emocao = ({ className, nome, emoji }) => (
-  <div className={className}>
-    <div>{nome}</div>
-    <div>{emoji}</div>
+  <div className={`${className} p-7`}>
+    <div className="text-center text-3xl">{nome}</div>
+    <div className="text-center text-7xl">{emoji}</div>
   </div>
 );
 
 const Emocoes = () => (
-  <div>
+  <div className="flex align-center justify-center">
     <Emocao className="bg-yellow-300" nome="Alegria" emoji="😊" />
+    <Emocao className="bg-red-500" nome="Raiva" emoji="😠" />
+    <Emocao className="bg-black text-white" nome="Medo" emoji="😨" />
+    <Emocao className="bg-green-500" nome="Nojo" emoji="🤢" />
+    <Emocao className="bg-blue-500" nome="Tristeza" emoji="😟" />
   </div>
 );
 
 export const Home = () => (
   <div>
-    <div className="text-7xl">Psicoeducação na universidade</div>
+    <div className="text-7xl text-center m-12">
+      Psicoeducação na universidade
+    </div>
     <div>Texto</div>
     <div>Trabalhar as emoções</div>
     <div>Vamos aprender mais?</div>
 
     <Emocoes />
-
-    <div className="flex">
-      <div className="text-lg p-3 bg-yellow-300 flex flex-col justify-center align-center">
-        <div className="text-3xl">Alegria</div>
-        <div className="text-7xl">😊</div>
-      </div>
-      <div className="text-lg p-3 bg-red-500">
-        <div>Raiva</div>
-        <div>😠</div>
-      </div>
-      <div className="text-lg p-3 bg-black text-white">
-        <div>Medo</div>
-        <div>😨</div>
-      </div>
-      <div className="text-lg p-3 bg-green-500">
-        <div>Nojo</div>
-        <div>🤢</div>
-      </div>
-      <div className="text-lg p-3 bg-blue-500">
-        <div>Tristeza</div>
-        <div>😟</div>
-      </div>
-    </div>
 
     <div>Agora já leu, clique aqui.</div>
   </div>

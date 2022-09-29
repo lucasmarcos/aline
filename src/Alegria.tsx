@@ -1,4 +1,12 @@
-import { Article, ArticleHeader, Content, P, Refs } from "./Util.js";
+import {
+  Article,
+  ArticleHeader,
+  Content,
+  P,
+  Refs,
+  BlocoEsquerda,
+  BlocoDireta,
+} from "./Util.js";
 
 const Header = () => (
   <ArticleHeader
@@ -25,40 +33,44 @@ export const Alegria = () => (
   <Article>
     <Header />
     <Content>
-      <P>
-        A Universidade é composta por diferentes histórias, culturas, condições
-        sociais e credos, um ambiente de diversidade.
-      </P>
+      <BlocoEsquerda>
+        <P>
+          A Universidade é composta por diferentes histórias, culturas,
+          condições sociais e credos, um ambiente de diversidade.
+        </P>
 
-      <P>
-        Por ser tão rico e tão diverso, é fundamental que possamos respeitar
-        esta diversidade.
-      </P>
+        <P>
+          Por ser tão rico e tão diverso, é fundamental que possamos respeitar
+          esta diversidade.
+        </P>
 
-      <P>
-        Uma maneira de fazer isso é pensar e falar sobre nossas emoções de
-        maneira segura, reconhecê-las, aceitá-las, e se necessário refletir e
-        agir sobre elas, entendendo como parte da condição humana, para que
-        possa ser vivenciada de maneira saudável.
-      </P>
+        <P>
+          Uma maneira de fazer isso é pensar e falar sobre nossas emoções de
+          maneira segura, reconhecê-las, aceitá-las, e se necessário refletir e
+          agir sobre elas, entendendo como parte da condição humana, para que
+          possa ser vivenciada de maneira saudável.
+        </P>
+      </BlocoEsquerda>
 
-      <P>
-        Para pensarmos sobre as emoções e a importância delas em nossas
-        relações, nada melhor do que recordar vivências ou observar as vivências
-        com os bebês.
-      </P>
+      <BlocoDireta>
+        <P>
+          Para pensarmos sobre as emoções e a importância delas em nossas
+          relações, nada melhor do que recordar vivências ou observar as
+          vivências com os bebês.
+        </P>
 
-      <P>
-        Isso porque nessa primeira fase de desenvolvimento do ser humano, é
-        possível observar a atuação das emoções de uma maneira muito límpida,
-        pois ainda não há uma regulação emocional.
-      </P>
+        <P>
+          Isso porque nessa primeira fase de desenvolvimento do ser humano, é
+          possível observar a atuação das emoções de uma maneira muito límpida,
+          pois ainda não há uma regulação emocional.
+        </P>
 
-      <P>
-        O bebê irá aprender sobre emoções todos os dias com um suporte por parte
-        de seus cuidadores, que também estão vivendo emoções constantes nesta
-        relação.
-      </P>
+        <P>
+          O bebê irá aprender sobre emoções todos os dias com um suporte por
+          parte de seus cuidadores, que também estão vivendo emoções constantes
+          nesta relação.
+        </P>
+      </BlocoDireta>
 
       <P>
         Esse relacionamento é capaz de nortear o entendimento dos bebês sobre as
@@ -189,28 +201,28 @@ export const Alegria = () => (
         todo mundo, mas somos compostos por esse misto diversificado de emoções
         e são elas que nos tornam propriamente humanos.
       </P>
-
-      <P>
-        Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de
-        cada mês publicaremos textos que serão veiculados pelos principais meios
-        de comunicação do Campus.
-      </P>
-
-      <Refs>
-        <P>
-          DALGALARRONDO, P. Psicopatologia e semiologia dos transtornos mentais.
-          Porto Alegre: Artes médicas Sul, 2000.
-        </P>
-        <P>
-          EKMAN, P. A Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011.
-        </P>
-        <P>
-          GOLEMAN, D. Inteligência emocional [recurso eletrônico] / Daniel
-          Goleman ;trad. Marcos Santarrita. – Rio de Janeiro : Objetiva, 2011.
-        </P>
-      </Refs>
-
-      <Footer />
     </Content>
+
+    <P>
+      Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de
+      cada mês publicaremos textos que serão veiculados pelos principais meios
+      de comunicação do Campus.
+    </P>
+
+    <Footer />
+
+    <Refs>
+      <P>
+        DALGALARRONDO, P. Psicopatologia e semiologia dos transtornos mentais.
+        Porto Alegre: Artes médicas Sul, 2000.
+      </P>
+      <P>
+        EKMAN, P. A Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011.
+      </P>
+      <P>
+        GOLEMAN, D. Inteligência emocional [recurso eletrônico] / Daniel Goleman
+        ;trad. Marcos Santarrita. – Rio de Janeiro : Objetiva, 2011.
+      </P>
+    </Refs>
   </Article>
 );
