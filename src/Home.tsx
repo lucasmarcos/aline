@@ -1,8 +1,18 @@
+const URLS = {
+  Alegria: "alegria.html",
+  Medo: "medo.html",
+  Tristeza: "tristeza.html",
+  Nojo: "nojo.html",
+  Raiva: "raiva.html",
+};
+
 const Emocao = ({ className, nome, emoji }) => (
-  <div className={`${className} p-7`}>
-    <div className="text-center text-3xl">{nome}</div>
-    <div className="text-center text-7xl">{emoji}</div>
-  </div>
+  <a href={URLS[nome]}>
+    <div className={`${className} p-7`}>
+      <div className="text-center text-3xl">{nome}</div>
+      <div className="text-center text-7xl">{emoji}</div>
+    </div>
+  </a>
 );
 
 const Emocoes = () => (

@@ -22,7 +22,7 @@ export const Content = ({ children }) => (
   <main className="py-6 mx-auto">{children}</main>
 );
 
-const BlackCube = () => <div className="flex-1 bg-black m-3"></div>;
+const BlackCube = () => <div className="flex-1 bg-yellow-300 m-3"></div>;
 
 const Bloco = ({ before = false, children }) => (
   <div className="flex align-center justify-space-between py-5 max-w-xl mx-auto">
