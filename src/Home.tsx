@@ -7,7 +7,7 @@ const URLS = {
 };
 
 const Title = () => (
-  <div className="text-7xl text-center p-12 bg-black text-white">
+  <div className="text-7xl text-center py-24 bg-black text-white">
     Psicoeducação na universidade
   </div>
 );
@@ -16,7 +16,7 @@ const Emocao = ({ className, nome, emoji }) => (
   <a href={URLS[nome]}>
     <div className={`${className} p-7`}>
       <div className="text-center text-3xl">{nome}</div>
-      <div className="text-center text-7xl my-3">{emoji}</div>
+      <div className="text-center text-7xl p-3">{emoji}</div>
     </div>
   </a>
 );
@@ -34,7 +34,7 @@ const Emocoes = () => (
 export const Home = () => (
   <div>
     <Title />
-    <div className="flex bg-gray-300">
+    <div className="flex max-w-2xl mx-auto">
       <div className="text-xl mx-auto max-w-md py-5">
         Texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
