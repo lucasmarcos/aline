@@ -9,11 +9,17 @@
     "react-dom": "latest",
     "tailwindcss": "latest",
     "typescript": "latest",
-    "nodemon": "latest"
+    "nodemon": "latest",
+    "concurrently": "latest"
   },
   "scripts": {
-    "build": "nodemon -w out out/main.js",
-    "watch": "tsc --watch",
-    "buildCSS": "tailwind -i src/main.css -o site/out.css --watch"
+    "build": "npm run buildts && npm run buildcss && npm run buildsite",
+    "buildts": "tsc",
+    "buildcss": "tailwind -i src/main.css -o site/out.css",
+    "buildsite": "node out/main.js",
+    "watch": "concurrently npm:watchts npm:watchcss npm:watchsite",
+    "watchts": "tsc --watch",
+    "watchcss": "tailwind -i src/main.css -o site/out.css --watch",
+    "watchsite": "nodemon -w out out/main.js"
   }
 }
