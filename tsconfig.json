@@ -5,7 +5,5 @@
     "outDir": "out",
     "target": "esnext"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

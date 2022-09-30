@@ -4,13 +4,14 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "concurrently": "latest",
+    "nodemon": "latest",
     "postcss": "latest",
+    "prettier": "latest",
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest",
-    "nodemon": "latest",
-    "concurrently": "latest"
+    "typescript": "latest"
   },
   "scripts": {
     "build": "npm run buildts && npm run buildcss && npm run buildsite",
