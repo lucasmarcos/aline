@@ -1,3 +1,5 @@
+import { createContext } from "react";
+
 export const Article = ({ children }) => <article>{children}</article>;
 
 export const ArticleHeader = ({ className, title, subtitle }) => (
@@ -22,7 +24,13 @@ export const Content = ({ children }) => (
   <main className="py-6 mx-auto">{children}</main>
 );
 
-const BlackCube = () => <div className="flex-1 bg-yellow-300 m-3"></div>;
+export const ColorContext = createContext("color");
+
+const BlackCube = () => (
+  <ColorContext.Consumer>
+    {(ctx) => <div className={`flex-1 m-3 ${ctx}`}></div>}
+  </ColorContext.Consumer>
+);
 
 const Bloco = ({ before = false, children }) => (
   <div className="flex align-center justify-space-between py-5 max-w-xl mx-auto">
