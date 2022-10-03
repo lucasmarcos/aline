@@ -11,7 +11,7 @@ export const ArticleHeader = ({ className, title, subtitle }) => (
   </div>
 );
 
-export const P = ({ children }) => <p className="py-1 text-lg">{children}</p>;
+export const P = ({ children }) => <p className="py-1">{children}</p>;
 
 export const Refs = ({ children }) => (
   <div>
@@ -33,7 +33,7 @@ const BlackCube = () => (
 );
 
 const Bloco = ({ before = false, children }) => (
-  <div className="flex align-center justify-space-between py-5 max-w-xl mx-auto">
+  <div className="flex align-center justify-space-between py-5 max-w-xl text-lg mx-auto">
     {before ? <BlackCube /> : null}
     <div className="flex-3 max-w-lg">{children}</div>
     {!before ? <BlackCube /> : null}
@@ -41,7 +41,7 @@ const Bloco = ({ before = false, children }) => (
 );
 
 export const Centro = ({ children }) => (
-  <div className="text-xl py-3 max-w-xl mx-auto text-center">{children}</div>
+  <div className="text-2xl py-3 max-w-xl mx-auto text-center">{children}</div>
 );
 
 export const BlocoDireta = ({ children }) => <Bloco before>{children}</Bloco>;
