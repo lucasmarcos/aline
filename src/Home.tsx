@@ -7,8 +7,8 @@ const URLS = {
 };
 
 const Title = () => (
-  <div className="text-7xl text-center py-24 bg-black text-white">
-    Psicoeducação na universidade
+  <div className="text-7xl text-center py-24 bg-black text-yellow-300">
+    Psicoeducação na Universidade
   </div>
 );
 
