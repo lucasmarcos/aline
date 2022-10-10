@@ -7,7 +7,6 @@
     "concurrently": "latest",
     "nodemon": "latest",
     "postcss": "latest",
-    "prettier": "latest",
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "latest",

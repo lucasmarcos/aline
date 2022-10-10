@@ -44,7 +44,7 @@ export const Centro = ({ children }) => (
   <div className="text-2xl py-3 max-w-xl mx-auto text-center">{children}</div>
 );
 
-export const BlocoDireta = ({ children }) => <Bloco before>{children}</Bloco>;
+export const BlocoDireita = ({ children }) => <Bloco before>{children}</Bloco>;
 export const BlocoEsquerda = ({ children }) => <Bloco>{children}</Bloco>;
 
 export const Citacao = ({ atribuicao = "", children }) => (

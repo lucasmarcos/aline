@@ -1,7 +1,7 @@
 import {
   Article,
   ArticleHeader,
-  BlocoDireta,
+  BlocoDireita,
   BlocoEsquerda,
   Centro,
   ColorContext,
@@ -20,7 +20,7 @@ export const Raiva = () => {
         />
 
         <Content>
-          <BlocoDireta>
+          <BlocoDireita>
             <P>
               Já parou pra pensar qual é a emoção despertada em nós após
               presenciar uma grande injustiça?
@@ -28,7 +28,7 @@ export const Raiva = () => {
             <P>
               Já agiu tão impulsivamente, diante de algo que te enfureceu muito?
             </P>
-          </BlocoDireta>
+          </BlocoDireita>
           <Centro>
             <P>Alcance</P>
           </Centro>
@@ -56,7 +56,7 @@ export const Raiva = () => {
           <Centro>
             <P>Turbulência</P>
           </Centro>
-          <BlocoDireta>
+          <BlocoDireita>
             <P>
               A raiva surge em situações em que nos deparamos com um obstáculo
               avaliado como hostil, que interfere no que se está fazendo ou
@@ -80,14 +80,14 @@ export const Raiva = () => {
               desencadeiam nossa raiva, pois nas situações consideradas como
               fatalidade ou como inevitáveis, tendemos a nos aborrecer menos.
             </P>
-          </BlocoDireta>
+          </BlocoDireita>
           <Centro>
             <P>
               A RAIVA É UMA EMOÇÃO IMPULSIONADORA, CAPAZ DE NOS MOTIVAR PARA
               ENCARAR OS DESAFIOS DA VIDA
             </P>
-            </Centro>
-            <BlocoEsquerda>
+          </Centro>
+          <BlocoEsquerda>
             <P>Essa é uma excelente função.</P>
             <P>
               O problema reside na forma como nos impulsiona e os comportamentos
@@ -162,7 +162,8 @@ export const Raiva = () => {
               diante dela, e tal percepção está em constante transformação e
               desenvolvimento.
             </P>
-            </BlocoEsquerda>        </Content>
+          </BlocoEsquerda>{" "}
+        </Content>
       </Article>
     </ColorContext.Provider>
   );

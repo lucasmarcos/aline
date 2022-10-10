@@ -5,7 +5,7 @@ import {
   P,
   Refs,
   BlocoEsquerda,
-  BlocoDireta,
+  BlocoDireita,
   Citacao,
   Centro,
   ColorContext,
@@ -56,7 +56,7 @@ export const Alegria = () => (
           </P>
         </BlocoEsquerda>
 
-        <BlocoDireta>
+        <BlocoDireita>
           <P>
             Para pensarmos sobre as emoções e a importância delas em nossas
             relações, nada melhor do que recordar vivências ou observar as
@@ -74,7 +74,7 @@ export const Alegria = () => (
             parte de seus cuidadores, que também estão vivendo emoções
             constantes nesta relação.
           </P>
-        </BlocoDireta>
+        </BlocoDireita>
 
         <BlocoEsquerda>
           <P>
@@ -99,7 +99,7 @@ export const Alegria = () => (
           </P>
         </BlocoEsquerda>
 
-        <BlocoDireta>
+        <BlocoDireita>
           <P>
             Podemos, ainda, pensar sobre como experienciamos nossas emoções, que
             sentimentos nutrimos com elas.
@@ -119,7 +119,7 @@ export const Alegria = () => (
             sociais ou culturais. São elas: alegria, tristeza, medo, nojo, raiva
             e surpresa.
           </P>
-        </BlocoDireta>
+        </BlocoDireita>
 
         <Centro>A arquitetura emocional do cérebro explica as emoções</Centro>
 
@@ -128,7 +128,7 @@ export const Alegria = () => (
           sentimento esmaga toda racionalidade
         </Citacao>
 
-        <BlocoDireta>
+        <BlocoDireita>
           <P>
             Convidamos vocês a refletirem conosco sobre as nuances das suas
             emoções, a compreender um pouco das emoções das pessoas que te
@@ -139,7 +139,7 @@ export const Alegria = () => (
             sentiu quando foi aprovado no SISU, no Concurso Público. Lembra
             dela?
           </P>
-        </BlocoDireta>
+        </BlocoDireita>
 
         <Citacao atribuicao="EKMAN, p. 33, 2011">
           A alegria é uma emoção que surge como resultado de um acontecimento
@@ -178,7 +178,7 @@ export const Alegria = () => (
             torna feliz uma pessoa, pode não ser fator de felicidade para outra.
           </P>
         </BlocoEsquerda>
-        <BlocoDireta>
+        <BlocoDireita>
           <P>
             Imagine uma linda praia, com sol radiante, boas companhias, em
             período de férias… esta imagem pode ser sinônimo de felicidade para
@@ -196,7 +196,7 @@ export const Alegria = () => (
             Se a praia não o deixa feliz, qual outro programa de férias, poderia
             lhe despertar alegria?
           </P>
-        </BlocoDireta>
+        </BlocoDireita>
 
         <Centro>
           <P>

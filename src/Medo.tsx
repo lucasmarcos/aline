@@ -1,7 +1,7 @@
 import {
   Article,
   ArticleHeader,
-  BlocoDireta,
+  BlocoDireita,
   BlocoEsquerda,
   Citacao,
   ColorContext,
@@ -19,7 +19,7 @@ export const Medo = () => (
       />
 
       <Content>
-        <BlocoDireta>
+        <BlocoDireita>
           <P>
             O medo possui uma função básica de preservação de vida, pois é a
             partir dele que conseguimos nos antecipar a um dano físico e/ou
@@ -31,7 +31,7 @@ export const Medo = () => (
             preparando-as para correr; ocorre uma aceleração dos batimentos
             cardíacos;
           </P>
-        </BlocoDireta>
+        </BlocoDireita>
         <Citacao atribuicao="EKMAN, 2011, p.172">
           podemos observar que as pálpebras superiores se elevam, sobrancelhas
           se erguem e se unem, maxilar se abre, o estômago reage, as mãos e a
@@ -51,7 +51,7 @@ export const Medo = () => (
           pois depende de variáveis individuais, culturais e contextuais
         </Citacao>
 
-        <BlocoDireta>
+        <BlocoDireita>
           <P>
             O medo não é uma emoção patológica, mas algo universal dos animais
             superiores e do homem, que tem inclusive sua função de regulação
@@ -66,7 +66,7 @@ export const Medo = () => (
             a probabilidade é maior de não sabermos como lidar com ele, logo,
             pode ser
           </P>
-        </BlocoDireta>
+        </BlocoDireita>
 
         <Citacao atribuicao="BAUMAN,2008, p.05">
           mais assustador quando difuso, disperso, indistinto, desvinculado,
