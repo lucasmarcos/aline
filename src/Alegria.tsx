@@ -13,7 +13,6 @@ import {
 
 const Header = () => (
   <ArticleHeader
-    className="bg-yellow-300"
     title="Alegria"
     subtitle="Vamos conversar sobre essa emoção?"
   />

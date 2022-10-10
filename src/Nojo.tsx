@@ -11,11 +11,7 @@ export const Nojo = () => {
   return (
     <ColorContext.Provider value="bg-green-500">
       <Article>
-        <ArticleHeader
-          className="bg-green-500"
-          title="Nojo"
-          subtitle="Uma emoção?"
-        />
+        <ArticleHeader title="Nojo" subtitle="Uma emoção?" />
 
         <Content>
           <BlocoDireita>

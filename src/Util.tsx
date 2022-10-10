@@ -1,14 +1,20 @@
 import { createContext } from "react";
 
+export const ColorContext = createContext("color");
+
 export const Article = ({ children }) => <article>{children}</article>;
 
-export const ArticleHeader = ({ className, title, subtitle }) => (
-  <div className={className}>
-    <div className="text-center p-7">
-      <h1 className="text-7xl py-1">{title}</h1>
-      <h2 className="text-4xl py-1">{subtitle}</h2>
-    </div>
-  </div>
+export const ArticleHeader = ({ title, subtitle }) => (
+  <ColorContext.Consumer>
+    {(ctx) => (
+      <div className={`${ctx} ${ctx === "bg-black" ? "text-white" : null}`}>
+        <div className="text-center p-7">
+          <h1 className="text-7xl py-1">{title}</h1>
+          <h2 className="text-4xl py-1">{subtitle}</h2>
+        </div>
+      </div>
+    )}
+  </ColorContext.Consumer>
 );
 
 export const P = ({ children }) => <p className="py-1">{children}</p>;
@@ -23,8 +29,6 @@ export const Refs = ({ children }) => (
 export const Content = ({ children }) => (
   <main className="py-6 mx-auto">{children}</main>
 );
-
-export const ColorContext = createContext("color");
 
 const BlackCube = () => (
   <ColorContext.Consumer>
