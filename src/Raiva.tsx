@@ -158,7 +158,7 @@ export const Raiva = () => {
               diante dela, e tal percepção está em constante transformação e
               desenvolvimento.
             </P>
-          </BlocoEsquerda>{" "}
+          </BlocoEsquerda>
         </Content>
       </Article>
     </ColorContext.Provider>
