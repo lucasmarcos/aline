@@ -53,6 +53,7 @@ export const Alegria = () => (
             límpida, pois ainda não há uma regulação emocional.
           </P>
         </BlocoEsquerda>
+
         <BlocoDireita>
           <P>
             O bebê irá aprender sobre emoções todos os dias com um suporte por
@@ -73,6 +74,7 @@ export const Alegria = () => (
             seres humanos.
           </P>
         </BlocoDireita>
+
         <BlocoEsquerda>
           <P>
             Hoje adultos, podemos recordar de emoções durante nossa trajetória
@@ -160,6 +162,7 @@ export const Alegria = () => (
             torna feliz uma pessoa, pode não ser fator de felicidade para outra.
           </P>
         </BlocoEsquerda>
+
         <BlocoDireita>
           <P>
             Imagine uma linda praia, com sol radiante, boas companhias, em
@@ -169,11 +172,14 @@ export const Alegria = () => (
             sinônimo de tristeza, de nojo, de raiva, despertando sentimentos
             nada agradáveis.
           </P>
+
           <P>
             E aí, nosso primeiro impulso é logo um julgamento, “como pode alguém
             de férias não estar feliz numa praia em dia ensolarado”?
           </P>
+
           <P>Então, convidamos você a fazer uma reflexão inversa.</P>
+
           <P>
             Se a praia não o deixa feliz, qual outro programa de férias, poderia
             lhe despertar alegria?
@@ -188,11 +194,13 @@ export const Alegria = () => (
             socialmente, se aplicando a todos os tipos de situações que
             vivenciamos.
           </P>
+
           <P>
             Devemos sim reconhecer que quando falamos de emoções e sentimentos,
             é tudo muito subjetivo, individualizado e entendido dentro de um
             contexto coletivo.
           </P>
+
           <P>
             A vida é assim, composta por momentos, com múltiplas emoções em uma
             infinidade distinta para cada um, e almejamos que nossos dias sejam
@@ -209,9 +217,11 @@ export const Alegria = () => (
           DALGALARRONDO, P. Psicopatologia e semiologia dos transtornos mentais.
           Porto Alegre: Artes médicas Sul, 2000.
         </P>
+
         <P>
           EKMAN, P. A Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011.
         </P>
+
         <P>
           GOLEMAN, D. Inteligência emocional [recurso eletrônico] / Daniel
           Goleman ;trad. Marcos Santarrita. – Rio de Janeiro : Objetiva, 2011.
