@@ -20,8 +20,8 @@ export const ArticleHeader = ({ title, subtitle }) => (
 export const P = ({ children }) => <p className="py-1">{children}</p>;
 
 export const Refs = ({ children }) => (
-  <div>
-    <p>Referências</p>
+  <div className="mx-auto max-w-lg">
+    <div className="text-center text-lg py-2">Referências</div>
     {children}
   </div>
 );
@@ -37,7 +37,7 @@ const ColorRectangle = () => (
 );
 
 const Bloco = ({ before = false, children }) => (
-  <div className="flex align-center justify-space-between py-5 max-w-xl text-lg mx-auto">
+  <div className="flex align-center justify-between py-5 max-w-xl text-lg mx-auto">
     {before ? <ColorRectangle /> : null}
     <div className="flex-3 max-w-lg">{children}</div>
     {!before ? <ColorRectangle /> : null}
@@ -59,12 +59,16 @@ export const Citacao = ({ atribuicao = "", children }) => (
   </blockquote>
 );
 
-const Creditos = () => (
-  <div>
-    <P>Projeto "Psicoeducação na Universidade"</P>
-    <P> COGERH/NUAPE - Campus Dois Vizinhos</P>
-    <P>Aline Anacleto Marchesan CRP 08/14785</P>
-    <P>Danieli Ghedin Sartori CRP 08/14368</P>
+export const Creditos = () => (
+  <div className="mx-auto py-5 text-lg flex flex-row align-center justify-between">
+    <div>
+      <P>Projeto "Psicoeducação na Universidade"</P>
+      <P> COGERH/NUAPE - Campus Dois Vizinhos</P>
+    </div>
+    <div>
+      <P>Aline Anacleto Marchesan CRP 08/14785</P>
+      <P>Danieli Ghedin Sartori CRP 08/14368</P>
+    </div>
   </div>
 );
 
