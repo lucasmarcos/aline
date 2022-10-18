@@ -20,9 +20,28 @@ export const ArticleHeader = ({ title, subtitle }) => (
 export const P = ({ children }) => <p className="py-1">{children}</p>;
 
 export const Refs = ({ children }) => (
-  <div className="mx-auto max-w-lg">
-    <div className="text-center text-lg py-2">Referências</div>
+  <div className="mx-auto max-w-lg py-3">
+    <div className="text-center text-xl py-3">Referências</div>
     {children}
+  </div>
+);
+
+export const Referencia = ({
+  livro,
+  autor,
+  editora,
+  lancamento,
+  local,
+  link = "",
+}) => (
+  <div className="py-3">
+    <div>
+      {autor}, {livro}.
+    </div>
+    <div>
+      {local}, {editora}, {lancamento}.
+    </div>
+    <a href={link}>{link}</a>
   </div>
 );
 
@@ -60,9 +79,12 @@ export const Citacao = ({ atribuicao = "", children }) => (
 );
 
 export const Creditos = () => (
-  <div className="mx-auto py-5 text-lg flex flex-row" style={{justifyContent: "space-between"}}>
+  <div
+    className="bg-black text-white py-5 text-lg flex flex-row"
+    style={{ justifyContent: "space-around" }}
+  >
     <div>
-      <P>Projeto "Psicoeducação na Universidade"</P>
+      <P>Projeto Psicoeducação na Universidade</P>
       <P> COGERH/NUAPE - Campus Dois Vizinhos</P>
     </div>
     <div>

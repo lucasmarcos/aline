@@ -10,6 +10,7 @@ import {
   Centro,
   ColorContext,
   Creditos,
+  Referencia,
 } from "./Util.js";
 
 const Header = () => (
@@ -214,19 +215,26 @@ export const Alegria = () => (
       </Content>
 
       <Refs>
-        <P>
-          DALGALARRONDO, P. Psicopatologia e semiologia dos transtornos mentais.
-          Porto Alegre: Artes médicas Sul, 2000.
-          <a href="https://books.google.com.br/books?id=8R5vDwAAQBAJ">link</a>
-        </P>
+        <Referencia
+          autor="DALGALARRONDO, P"
+          livro="Psicopatologia e semiologia dos transtornos mentais"
+          local="Porto Alegre"
+          editora="Artes médicas Sul"
+          lancamento="2000"
+          link="https://books.google.com.br/books?id=8R5vDwAAQBAJ"
+        />
 
-        <P>
-          EKMAN, P. A Linguagem das Emoções. São Paulo, SP: Lua de Papel, 2011.
-        </P>
+        <Referencia
+          autor="EKMAN, P"
+          livro="A Linguagem das Emoções"
+          local="São Paulo, SP"
+          editora="Lua de Papel"
+          lancamento="2011"
+        />
 
         <P>
           GOLEMAN, D. Inteligência emocional [recurso eletrônico] / Daniel
-          Goleman ;trad. Marcos Santarrita. Rio de Janeiro : Objetiva, 2011.
+          Goleman & Marcos Santarrita. Rio de Janeiro : Objetiva, 2011.
         </P>
       </Refs>
 
