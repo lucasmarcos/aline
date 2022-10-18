@@ -30,7 +30,7 @@ export const Content = ({ children }) => (
   <main className="py-6 mx-auto">{children}</main>
 );
 
-const BlackCube = () => (
+const ColorRectangle = () => (
   <ColorContext.Consumer>
     {(ctx) => <div className={`flex-1 m-3 ${ctx}`}></div>}
   </ColorContext.Consumer>
@@ -38,9 +38,9 @@ const BlackCube = () => (
 
 const Bloco = ({ before = false, children }) => (
   <div className="flex align-center justify-space-between py-5 max-w-xl text-lg mx-auto">
-    {before ? <BlackCube /> : null}
+    {before ? <ColorRectangle /> : null}
     <div className="flex-3 max-w-lg">{children}</div>
-    {!before ? <BlackCube /> : null}
+    {!before ? <ColorRectangle /> : null}
   </div>
 );
 
@@ -57,4 +57,21 @@ export const Citacao = ({ atribuicao = "", children }) => (
       "{children}". {atribuicao != "" ? `(${atribuicao}).` : null}
     </div>
   </blockquote>
+);
+
+const Creditos = () => (
+  <div>
+    <P>Projeto "Psicoeducação na Universidade"</P>
+    <P> COGERH/NUAPE - Campus Dois Vizinhos</P>
+    <P>Aline Anacleto Marchesan CRP 08/14785</P>
+    <P>Danieli Ghedin Sartori CRP 08/14368</P>
+  </div>
+);
+
+const CallToAction = () => (
+  <P>
+    Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de cada
+    mês publicaremos textos que serão veiculados pelos principais meios de
+    comunicação do Campus.
+  </P>
 );

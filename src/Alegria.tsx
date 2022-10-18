@@ -18,19 +18,6 @@ const Header = () => (
   />
 );
 
-const Footer = () => (
-  <footer>
-    <P>
-      Projeto "Psicoeducação na Universidade" - COGERH/NUAPE - Campus Dois
-      Vizinhos
-    </P>
-    <P>
-      Aline Anacleto Marchesan CRP 08/14785 - Danieli Ghedin Sartori CRP
-      08/14368
-    </P>
-  </footer>
-);
-
 export const Alegria = () => (
   <ColorContext.Provider value="bg-yellow-300">
     <Article>
@@ -53,9 +40,7 @@ export const Alegria = () => (
             e agir sobre elas, entendendo como parte da condição humana, para
             que possa ser vivenciada de maneira saudável.
           </P>
-        </BlocoEsquerda>
 
-        <BlocoDireita>
           <P>
             Para pensarmos sobre as emoções e a importância delas em nossas
             relações, nada melhor do que recordar vivências ou observar as
@@ -67,15 +52,14 @@ export const Alegria = () => (
             possível observar a atuação das emoções de uma maneira muito
             límpida, pois ainda não há uma regulação emocional.
           </P>
-
+        </BlocoEsquerda>
+        <BlocoDireita>
           <P>
             O bebê irá aprender sobre emoções todos os dias com um suporte por
             parte de seus cuidadores, que também estão vivendo emoções
             constantes nesta relação.
           </P>
-        </BlocoDireita>
 
-        <BlocoEsquerda>
           <P>
             Esse relacionamento é capaz de nortear o entendimento dos bebês
             sobre as emoções, e pode possibilitar uma maior compreensão a
@@ -88,7 +72,8 @@ export const Alegria = () => (
             sentimentos, irão permear todas as nossas experiências enquanto
             seres humanos.
           </P>
-
+        </BlocoDireita>
+        <BlocoEsquerda>
           <P>
             Hoje adultos, podemos recordar de emoções durante nossa trajetória
             de vida, podemos nomeá-las com infindáveis nomes, dentre os quais
@@ -96,9 +81,7 @@ export const Alegria = () => (
             vergonha, ansiedade, depressão, calma, tensão, dentre tantas outras,
             que aparecem sozinhas, combinadas e distintas.
           </P>
-        </BlocoEsquerda>
 
-        <BlocoDireita>
           <P>
             Podemos, ainda, pensar sobre como experienciamos nossas emoções, que
             sentimentos nutrimos com elas.
@@ -118,7 +101,7 @@ export const Alegria = () => (
             sociais ou culturais. São elas: alegria, tristeza, medo, nojo, raiva
             e surpresa.
           </P>
-        </BlocoDireita>
+        </BlocoEsquerda>
 
         <Centro>A arquitetura emocional do cérebro explica as emoções</Centro>
 
@@ -197,7 +180,7 @@ export const Alegria = () => (
           </P>
         </BlocoDireita>
 
-        <Centro>
+        <BlocoEsquerda>
           <P>
             O nosso propósito é que ao ler esse texto, a gente comece a se
             desapegar desses clichês, de que uma determinada situação deve
@@ -218,16 +201,8 @@ export const Alegria = () => (
             diversificado de emoções e são elas que nos tornam propriamente
             humanos.
           </P>
-        </Centro>
+        </BlocoEsquerda>
       </Content>
-
-      <P>
-        Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de
-        cada mês publicaremos textos que serão veiculados pelos principais meios
-        de comunicação do Campus.
-      </P>
-
-      <Footer />
 
       <Refs>
         <P>
