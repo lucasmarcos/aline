@@ -60,7 +60,7 @@ export const Citacao = ({ atribuicao = "", children }) => (
 );
 
 export const Creditos = () => (
-  <div className="mx-auto py-5 text-lg flex flex-row align-center justify-between">
+  <div className="mx-auto py-5 text-lg flex flex-row" style={{justifyContent: "space-between"}}>
     <div>
       <P>Projeto "Psicoeducação na Universidade"</P>
       <P> COGERH/NUAPE - Campus Dois Vizinhos</P>
