@@ -5,6 +5,7 @@ import {
   Content,
   P,
   ColorContext,
+  Creditos,
 } from "./Util.js";
 
 export const Tristeza = () => {
@@ -96,11 +97,7 @@ export const Tristeza = () => {
             </P>
           </BlocoDireita>
         </Content>
-        <P>
-          Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de
-          cada mês publicaremos textos que serão veiculados pelos principais
-          meios de comunicação do Campus.
-        </P>
+
         <P>
           REFERÊNCIAS BOTEGA, N.J. A tristeza transforma, a depressão paralisa:
           um guia para pacientes e familiares. São Paulo, SP: Benvirá, 2018.
@@ -111,11 +108,6 @@ export const Tristeza = () => {
           Editora, 2020. GOLEMAN, D. Inteligência emocional [recurso eletrônico]
           / Daniel Goleman ;trad. Marcos Santarrita. – Rio de Janeiro :
           Objetiva, 2011.
-        </P>
-        <P>
-          Projeto "Psicoeducação na Universidade" COGERH/NUAPE/Subcomissão Saúde
-          Mental e Qualidade de Vida Campus Dois Vizinhos Aline Anacleto
-          Marchesan CRP 08/14785 Danieli Ghedin Sartori CRP 08/14368
         </P>
       </Article>
     </ColorContext.Provider>

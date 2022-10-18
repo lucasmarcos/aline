@@ -134,8 +134,6 @@ export const Medo = () => (
           EKMAN, P. A Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011.
         </P>
       </Refs>
-
-      <Creditos />
     </Article>
   </ColorContext.Provider>
 );

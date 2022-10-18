@@ -237,8 +237,6 @@ export const Alegria = () => (
           Goleman & Marcos Santarrita. Rio de Janeiro : Objetiva, 2011.
         </P>
       </Refs>
-
-      <Creditos />
     </Article>
   </ColorContext.Provider>
 );

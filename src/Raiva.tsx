@@ -6,6 +6,7 @@ import {
   Centro,
   ColorContext,
   Content,
+  Creditos,
   P,
 } from "./Util.js";
 

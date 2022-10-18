@@ -2,7 +2,12 @@ import { createContext } from "react";
 
 export const ColorContext = createContext("color");
 
-export const Article = ({ children }) => <article>{children}</article>;
+export const Article = ({ children }) => (
+  <>
+    <article>{children}</article>
+    <Creditos />
+  </>
+);
 
 export const ArticleHeader = ({ title, subtitle }) => (
   <ColorContext.Consumer>
