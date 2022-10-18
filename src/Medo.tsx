@@ -6,7 +6,9 @@ import {
   Citacao,
   ColorContext,
   Content,
+  Creditos,
   P,
+  Refs,
 } from "./Util.js";
 
 export const Medo = () => (
@@ -118,19 +120,22 @@ export const Medo = () => (
         </BlocoEsquerda>
       </Content>
 
-      <div>
-        Referencias Bibliográficas: BATISTA, GUEDES e GONDIM. Medo In: GODIM,
-        S.M.G (orgs.) Manual de Orientação e Autodesenvolvimento Emocional, 1ed.
-        São Paulo: Vetor Editora, 2020. BAUMAN, Zygmunt. Medo líquido. Rio de
-        Janeiro: Editora Zahar, 2008. Edição digital: abril 2012 EKMAN, P. A
-        Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011. Se você gostou
-        e quer aprender mais, fique atento, todo dia 07 e 17 de cada mês
-        publicaremos textos que serão veiculados pelos principais meios de
-        comunicação do Campus. Projeto "Psicoeducação na Universidade"
-        COGERH/NUAPE/Subcomissão Saúde Mental e Qualidade de Vida Campus Dois
-        Vizinhos. Aline Anacleto Marchesan CRP 08/14785 Danieli Ghedin Sartori
-        CRP 08/14368
-      </div>
+      <Refs>
+        <P>
+          BATISTA, GUEDES e GONDIM. Medo In: GODIM, S.M.G (orgs.) Manual de
+          Orientação e Autodesenvolvimento Emocional, 1ed. São Paulo: Vetor
+          Editora, 2020.
+        </P>
+        <P>
+          BAUMAN, Zygmunt. Medo líquido. Rio de Janeiro: Editora Zahar, 2008.
+          Edição digital: abril 2012
+        </P>
+        <P>
+          EKMAN, P. A Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011.
+        </P>
+      </Refs>
+
+      <Creditos />
     </Article>
   </ColorContext.Provider>
 );
