@@ -1,5 +1,7 @@
 import { createContext } from "react";
 
+import { FonteSubtitulo } from "./fontes.js";
+
 export const ColorContext = createContext("color");
 
 export const Article = ({ children }) => (
@@ -85,8 +87,8 @@ export const Citacao = ({ atribuicao = "", children }) => (
 
 export const Creditos = () => (
   <div
-    className="bg-black text-white py-5 text-lg flex flex-row"
-    style={{ justifyContent: "space-around" }}
+    className={`bg-black text-white py-5 text-lg flex flex-row ${FonteSubtitulo}`}
+    style={{ justifyContent: "space-around", fontFamily: "DM Sans" }}
   >
     <div>
       <P>Projeto Psicoeducação na Universidade</P>
