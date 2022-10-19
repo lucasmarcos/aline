@@ -5,7 +5,6 @@ import {
   P,
   BlocoDireita,
   ColorContext,
-  Creditos,
 } from "./Util.js";
 
 export const Nojo = () => {

@@ -5,7 +5,6 @@ import {
   Content,
   P,
   ColorContext,
-  Creditos,
 } from "./Util.js";
 
 export const Tristeza = () => {

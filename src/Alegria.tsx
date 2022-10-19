@@ -9,7 +9,6 @@ import {
   Citacao,
   Centro,
   ColorContext,
-  Creditos,
   Referencia,
 } from "./Util.js";
 
