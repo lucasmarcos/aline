@@ -13,7 +13,7 @@ export const Article = ({ children }) => (
   </>
 );
 
-export const ArticleHeader = ({ title, subtitle }) => (
+export const ArticleHeader = ({ title, subtitle = "" }) => (
   <ColorContext.Consumer>
     {(ctx) => (
       <div className={`${ctx} ${ctx === "bg-black" ? "text-white" : ""}`}>

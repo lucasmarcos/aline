@@ -1,4 +1,4 @@
-import { BG_AMARELO, BG_PRETO, TXT_ROSA } from "./cores.js";
+import { BG_AMARELO, TXT_ROSA } from "./cores.js";
 import { FonteTexto, FonteTitulo } from "./fontes.js";
 import { Creditos, P } from "./Util.js";
 
@@ -69,17 +69,21 @@ export const Home = () => (
       </div>
     </div>
 
-    <div className="text-center mx-auto">
-      <a href="definicao.html">LINK</a>
+    <div className="text-center mx-auto py-7 text-2xl">
+      <a href="definicao.html">Link</a>
+    </div>
+
+    {/*
+
+    <div className={`text-center py-3 text-3xl text-white ${BG_PRETO}`}>
+      Vamos aprender mais? call to action
     </div>
 
     <div className={`text-center py-3 text-3xl text-white ${BG_PRETO}`}>
-      Vamos aprender mais? {/* call to action */}
+      Agora já leu, clique aqui. call to action
     </div>
-
-    <div className={`text-center py-3 text-3xl text-white ${BG_PRETO}`}>
-      Agora já leu, clique aqui. {/* call to action */}
-    </div>
+    
+    */}
 
     <Creditos />
   </div>

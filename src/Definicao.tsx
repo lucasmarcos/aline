@@ -14,7 +14,7 @@ import {
 export const Definicao = () => (
   <ColorContext.Provider value={BG_CINZA_CLARO}>
     <Article>
-      <ArticleHeader title="Vamos falar sobre nossas emoções?" subtitle="" />
+      <ArticleHeader title="Vamos falar sobre nossas emoções?" />
 
       <Content>
         <BlocoDireita>
@@ -100,6 +100,10 @@ export const Definicao = () => (
 
       <div className={`${BG_PRETO} py-7`}>
         <Emocoes />
+      </div>
+
+      <div className="text-center">
+        <a href="final.html">Fim</a>
       </div>
     </Article>
   </ColorContext.Provider>
