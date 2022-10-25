@@ -47,8 +47,8 @@ export const Definicao = () => (
           aquela emoção. Chamamos isso de sentimentos. Como a pessoa se sente
           diante do despertar de alguma emoção.
         </P>
-        </BlocoEsquerda>
-        <BlocoDireita>
+      </BlocoEsquerda>
+      <BlocoDireita>
         <P>
           Esse sentimento é subjetivo, porque depende da experiência que cada
           pessoa teve, está associado a conteúdos intelectuais, valores e
@@ -66,8 +66,8 @@ export const Definicao = () => (
           pensamentos, que nos movem para uma ação necessária e nos faz tomar
           decisões, importantes para nosso cotidiano e para nosso bem estar.
         </P>
-        </BlocoDireita>
-        <BlocoEsquerda>
+      </BlocoDireita>
+      <BlocoEsquerda>
         <P>
           As emoções são fundamentais para nosso dia a dia Entender quais são as
           principais emoções e como funcionam, possibilita uma reflexão que faz
@@ -94,7 +94,7 @@ export const Definicao = () => (
       </BlocoEsquerda>
 
       <div className={`${BG_PRETO} py-7`}>
-      <Emocoes />
+        <Emocoes />
       </div>
     </Article>
   </ColorContext.Provider>

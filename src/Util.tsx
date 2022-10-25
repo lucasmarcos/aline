@@ -87,7 +87,11 @@ const Bloco = ({ before = false, children }) => (
 );
 
 export const Centro = ({ children }) => (
-  <div className="text-2xl py-3 max-w-xl mx-auto text-center">{children}</div>
+  <div
+    className={`text-2xl py-3 max-w-xl mx-auto text-center ${FonteSubtitulo}`}
+  >
+    {children}
+  </div>
 );
 
 export const BlocoDireita = ({ children }) => <Bloco before>{children}</Bloco>;
