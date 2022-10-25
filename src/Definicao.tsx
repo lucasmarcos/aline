@@ -1,5 +1,6 @@
 import { BG_CINZA_CLARO, BG_PRETO } from "./cores.js";
 import { Emocoes } from "./Emocoes.js";
+
 import {
   Article,
   ArticleHeader,

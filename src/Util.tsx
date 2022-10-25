@@ -1,6 +1,6 @@
 import { createContext } from "react";
-import { CinzaClaro } from "./cores.js";
 
+import { CinzaClaro } from "./cores.js";
 import { FonteSubtitulo, FonteTexto, FonteTitulo } from "./fontes.js";
 
 export const ColorContext = createContext("color");
