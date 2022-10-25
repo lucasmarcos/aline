@@ -30,7 +30,7 @@ const Emocao = ({ className, nome, emoji }) => (
 
 export const Emocoes = () => (
   <div
-    className={`flex align-center justify-center  flex-col md:flex-row ${BG_PRETO}`}
+    className={`flex align-center justify-center  flex-col md:flex-row`}
   >
     <Emocao className="bg-yellow-300" nome="Alegria" emoji="😊" />
     <Emocao className="bg-red-500" nome="Raiva" emoji="😠" />

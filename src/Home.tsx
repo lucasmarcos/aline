@@ -69,6 +69,10 @@ export const Home = () => (
       </div>
     </div>
 
+    <div className="text-center mx-auto">
+      <a href="definicao.html">LINK</a>
+    </div>
+
     <div className={`text-center py-3 text-3xl text-white ${BG_PRETO}`}>
       Vamos aprender mais? {/* call to action */}
     </div>

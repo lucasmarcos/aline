@@ -9,5 +9,6 @@ export const TXT = (cor) => `text-[#${cor}]`;
 
 export const BG_AMARELO = "bg-[#FFBA0A]";
 export const BG_PRETO = "bg-[#1D1E1E]";
+export const BG_CINZA_CLARO = "bg-[#9BC1BC]";
 
 export const TXT_ROSA = "text-[#ED6A5A]";
