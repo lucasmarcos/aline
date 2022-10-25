@@ -17,15 +17,30 @@ export const ArticleHeader = ({ title, subtitle }) => (
     {(ctx) => (
       <div className={`${ctx} ${ctx === "bg-black" ? "text-white" : ""}`}>
         <div className="text-center p-7">
-          <h1 className={`text-7xl py-1 ${FonteTitulo}`} style={{textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}`}}>{title}</h1>
-          <h2 className={`text-4xl py-1 ${FonteSubtitulo}`} style={{ fontFamily: "DM Sans", textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}` }}>{subtitle}</h2>
+          <h1
+            className={`text-7xl py-1 ${FonteTitulo}`}
+            style={{ textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}` }}
+          >
+            {title}
+          </h1>
+          <h2
+            className={`text-4xl py-1 ${FonteSubtitulo}`}
+            style={{
+              fontFamily: "DM Sans",
+              textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}`,
+            }}
+          >
+            {subtitle}
+          </h2>
         </div>
       </div>
     )}
   </ColorContext.Consumer>
 );
 
-export const P = ({ children }) => <p className={`py-1 ${FonteTexto}`}>{children}</p>;
+export const P = ({ children }) => (
+  <p className={`py-1 ${FonteTexto}`}>{children}</p>
+);
 
 export const Refs = ({ children }) => (
   <div className="mx-auto max-w-lg py-3">
