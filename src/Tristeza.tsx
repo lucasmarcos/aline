@@ -7,6 +7,8 @@ import {
   ColorContext,
   Referencia,
   Refs,
+  Centro,
+  BlocoEsquerda,
 } from "./Util.js";
 
 export const Tristeza = () => {
@@ -28,9 +30,16 @@ export const Tristeza = () => {
               maioria, fortemente evitada, mas que possui seu aspecto funcional
               em nossa vida.
             </P>
-            <h3 className="text-2xl text-bold my-3">
+          </BlocoDireita>
+
+          <Centro>
+            <P>
+              {" "}
+              {/*className="text-2xl text-bold my-3"*/}
               Vamos entender isso melhor?!
-            </h3>
+            </P>
+          </Centro>
+          <BlocoEsquerda>
             <P>
               A literatura científica aponta que a emoção denominada tristeza
               está intimamente relacionada com uma diminuição do estado de
@@ -96,7 +105,7 @@ export const Tristeza = () => {
               uma atenção especial com uma avaliação de profissional
               especializado nos casos em que a tristeza se torna persistente.
             </P>
-          </BlocoDireita>
+          </BlocoEsquerda>
         </Content>
 
         <Refs>

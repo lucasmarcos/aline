@@ -7,6 +7,7 @@ export const ColorContext = createContext("color");
 
 export const Article = ({ children }) => (
   <>
+    <Voltar />
     <article>{children}</article>
     <Creditos />
   </>
@@ -127,4 +128,10 @@ const CallToAction = () => (
     mês publicaremos textos que serão veiculados pelos principais meios de
     comunicação do Campus.
   </P>
+);
+
+export const Voltar = () => (
+  <div>
+    <a href="/">Voltar</a>
+  </div>
 );
