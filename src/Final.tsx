@@ -7,6 +7,7 @@ import {
   BlocoEsquerda,
   ColorContext,
   Content,
+  Citacao,
   Centro,
   P,
   Refs,
@@ -80,11 +81,12 @@ export const Final = () => (
             sentir no nosso dia a dia, já que nos desperta sentimentos bons e
             sensação de bem estar.
           </P>
-          <P>
-            "A alegria é uma emoção que surge como resultado de um acontecimento
+
+          <Citacao>
+            A alegria é uma emoção que surge como resultado de um acontecimento
             positivo que produz bem estar e pode ser expressa, por exemplo, por
-            um sorriso" (EKMAN, p. 33, 2011).
-          </P>
+            um sorriso (EKMAN, p. 33, 2011).
+          </Citacao>
         </BlocoEsquerda>
 
         <BlocoDireita>
@@ -140,6 +142,8 @@ export const Final = () => (
             Conhecer as emoções e perceber seus efeitos em nossas vidas, é o
             primeiro passo para aprender a lidar com elas.
           </P>
+	  </BlocoDireita>
+	  <BlocoEsquerda>
           <P>
             Compreendendo que uma classificação das emoções como “positivas” ou
             “negativas” é algo arriscado, pois dependemos e somos constituídos
@@ -158,7 +162,7 @@ export const Final = () => (
             momentos em que tomam uma dimensão que possa ser prejudicial à saúde
             mental e à qualidade de vida.
           </P>
-        </BlocoDireita>
+        </BlocoEsquerda>
       </Content>
 
       <Refs>
