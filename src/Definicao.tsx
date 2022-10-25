@@ -102,8 +102,8 @@ export const Definicao = () => (
         <Emocoes />
       </div>
 
-      <div className="text-center">
-        <a href="final.html">Fim</a>
+      <div className="text-center text-2xl my-7">
+        <a href="final.html">Final</a>
       </div>
     </Article>
   </ColorContext.Provider>

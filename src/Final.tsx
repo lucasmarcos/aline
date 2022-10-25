@@ -6,6 +6,7 @@ import {
   ColorContext,
   Content,
   P,
+  Refs,
 } from "./Util.js";
 
 export const Final = () => (
@@ -67,18 +68,15 @@ export const Final = () => (
             para aprender a lidar com a emoções, respeitando-as e
             reconhecendo-as como parte da condição humana, e identificando os
             momentos em que tomam uma dimensão que possa ser prejudicial à saúde
-            mental e à qualidade de vida. Se quiser saber mais sobre isso, fique
-            atento. Os textos agora serão encaminhados todo dia 07 de cada mês.
-            Referências Bibliográficas EKMAN, P. A Linguagem das Emoções, São
-            Paulo, SP: Lua de Papel, 2011. GODIM, S.M.G (orgs.) Manual de
-            Orientação e Autodesenvolvimento Emocional, 1ed. São Paulo: Vetor
-            Editora, 2020. Projeto "Psicoeducação na Universidade"
-            COGERH/NUAPE/Subcomissão Saúde Mental e Qualidade de Vida Campus
-            Dois Vizinhos Aline Anacleto Marchesan CRP 08/14785 - Danieli Ghedin
-            Sartori CRP 08/14368
+            mental e à qualidade de vida.
           </P>
         </BlocoDireita>
       </Content>
+      <Refs>
+        EKMAN, P. A Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011.
+        GODIM, S.M.G (orgs.) Manual de Orientação e Autodesenvolvimento
+        Emocional, 1ed. São Paulo: Vetor Editora, 2020.
+      </Refs>
     </Article>
   </ColorContext.Provider>
 );

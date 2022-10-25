@@ -7,6 +7,7 @@ import {
   ColorContext,
   Content,
   P,
+  Refs,
 } from "./Util.js";
 
 export const Raiva = () => {
@@ -132,34 +133,29 @@ export const Raiva = () => {
               relações, ela sinaliza que talvez estejamos necessitando de ajuda
               para compreender o que está ocorrendo, ela pode indicar a
               necessidade de acompanhamento profissional, a necessidade de
-              algumas mudanças em nossa vida. Referências Bibliográficas BARROS,
-              D.M. O lado bom do lado ruim [recurso eletrônico]. Rio de Janeiro:
-              Sextante, 2020. Acesso em: 26 abr. 2022. GODIM, S.M.G (orgs.)
-              Manual de Orientação e Autodesenvolvimento Emocional, 1ed. São
-              Paulo: Vetor Editora, 2020. GOLEMAN, D. Inteligência emocional
-              [recurso eletrônico] / Daniel Goleman ;trad. Marcos Santarrita. –
-              Rio de Janeiro : Objetiva, 2011. MACHADO, L. V.; FACCI, M. G. D.;
-              BARROCO, S. M. S. Teoria das emoções em Vigotski. Psicol. estud.
-              [on-line], vol. 16, n. 4, 2011. p. 647-657. Disponível em: .
-              Acesso em: 18 abr. 2022. MIGUEL, F.K.; Psicologia das emoções: uma
-              proposta integrativa para compreender a expressão emocional,
-              Psico-USF, Bragança Paulista, v. 20, n. 1, p. 153-162, jan./abr.
-              2015. Se você gostou e quer aprender mais, fique atento, todo dia
-              07 e 17 de cada mês publicaremos textos que serão veiculados pelos
-              principais meios de comunicação do Campus. Projeto "Psicoeducação
-              na Universidade" COGERH/NUAPE/Subcomissão Saúde Mental e Qualidade
-              de Vida Campus Dois Vizinhos Aline Anacleto Marchesan CRP 08/14785
-              Danieli Ghedin Sartori CRP 08/14368 Como posto por Vigotsky
-              (2004), a emoção é um processo passível de desenvolvimento e
-              transformação, a partir da consciência, da relação entre estados
-              emocionais e estados intelectuais (MACHADO, FACCI e BARROCO, 2011,
-              p.653). Ou seja, além dos aspectos biológicos, a forma como
-              reagimos às emoções, irá depender também da percepção psicológica
-              diante dela, e tal percepção está em constante transformação e
-              desenvolvimento.
+              algumas mudanças em nossa vida. Como posto por Vigotsky (2004), a
+              emoção é um processo passível de desenvolvimento e transformação,
+              a partir da consciência, da relação entre estados emocionais e
+              estados intelectuais (MACHADO, FACCI e BARROCO, 2011, p.653). Ou
+              seja, além dos aspectos biológicos, a forma como reagimos às
+              emoções, irá depender também da percepção psicológica diante dela,
+              e tal percepção está em constante transformação e desenvolvimento.
             </P>
           </BlocoEsquerda>
         </Content>
+        <Refs>
+          BARROS, D.M. O lado bom do lado ruim [recurso eletrônico]. Rio de
+          Janeiro: Sextante, 2020. Acesso em: 26 abr. 2022. GODIM, S.M.G (orgs.)
+          Manual de Orientação e Autodesenvolvimento Emocional, 1ed. São Paulo:
+          Vetor Editora, 2020. GOLEMAN, D. Inteligência emocional [recurso
+          eletrônico] / Daniel Goleman ;trad. Marcos Santarrita. – Rio de
+          Janeiro : Objetiva, 2011. MACHADO, L. V.; FACCI, M. G. D.; BARROCO, S.
+          M. S. Teoria das emoções em Vigotski. Psicol. estud. [on-line], vol.
+          16, n. 4, 2011. p. 647-657. Disponível em: . Acesso em: 18 abr. 2022.
+          MIGUEL, F.K.; Psicologia das emoções: uma proposta integrativa para
+          compreender a expressão emocional, Psico-USF, Bragança Paulista, v.
+          20, n. 1, p. 153-162, jan./abr. 2015.
+        </Refs>
       </Article>
     </ColorContext.Provider>
   );
