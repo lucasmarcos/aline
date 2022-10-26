@@ -7,7 +7,7 @@ export const ColorContext = createContext("color");
 
 export const Article = ({ children }) => (
   <>
-    <Voltar />
+    {/* <Voltar /> */}
     <article>{children}</article>
     <Creditos />
   </>
@@ -39,9 +39,7 @@ export const ArticleHeader = ({ title, subtitle = "" }) => (
   </ColorContext.Consumer>
 );
 
-export const P = ({ children }) => (
-  <p className={`py-1 text-justify ${FonteTexto}`}>{children}</p>
-);
+export const P = ({ children }) => <p className="py-1">{children}</p>;
 
 export const Refs = ({ children }) => (
   <div className="mx-auto max-w-lg py-3">
@@ -70,7 +68,7 @@ export const Referencia = ({
 );
 
 export const Content = ({ children }) => (
-  <main className="py-6 mx-auto">{children}</main>
+  <main className={`py-6 mx-auto text-justify ${FonteTexto}`}>{children}</main>
 );
 
 const ColorRectangle = () => (
@@ -108,9 +106,12 @@ export const Citacao = ({ atribuicao = "", children }) => (
 
 export const Creditos = () => (
   <div
-    className={`bg-black text-white py-5 text-lg flex flex-row ${FonteSubtitulo}`}
-    style={{ justifyContent: "space-around", fontFamily: "DM Sans" }}
+    className={`bg-black text-white py-5 text-lg flex flex-col md:flex-row align-center justify-around ${FonteSubtitulo}`}
+    style={{ alignItems: "center" }}
   >
+    <div className="bg-white max-w-xs">
+      <img src="utfpr.png" />
+    </div>
     <div>
       <P>Projeto Psicoeducação na Universidade</P>
       <P> COGERH/NUAPE - Campus Dois Vizinhos</P>

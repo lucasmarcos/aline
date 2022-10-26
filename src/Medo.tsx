@@ -11,7 +11,7 @@ import {
 } from "./Util.js";
 
 export const Medo = () => (
-  <ColorContext.Provider value="bg-black">
+  <ColorContext.Provider value="bg-orange-500">
     <Article>
       <ArticleHeader title="MEDO" />
 

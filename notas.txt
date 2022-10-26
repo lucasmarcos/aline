@@ -1,0 +1,12 @@
+caixa alta
+text justificado
+referencias (da pagina inicial, ou em pagina separada)
+logo da universidade
+vamos conhecer nossas emocoes
+tirar o subtitulo
+seperar os paragrafos
+titulo e link da pagina final
+pagina de recepcao
+  foto botao
+    sobre, nossas emocoes, referencias, equipe, contato
+cor do medo

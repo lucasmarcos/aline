@@ -1,4 +1,5 @@
 import { BG_CINZA_CLARO } from "./cores.js";
+import { Paginas } from "./Emocoes.js";
 
 import {
   Article,
@@ -14,41 +15,8 @@ import {
   Referencia,
 } from "./Util.js";
 
-const Paginas = {
-  alegria: {
-    url: "alegria.html",
-    bg: "bg-yellow-300",
-    titulo: "ALEGRIA",
-  },
-  tristeza: {
-    url: "tristeza.html",
-    bg: "bg-blue-500",
-    titulo: "TRISTEZA",
-  },
-  nojo: {
-    url: "nojo.html",
-    bg: "bg-green-500",
-    titulo: "NOJO",
-  },
-  raiva: {
-    url: "raiva.html",
-    bg: "bg-red-500",
-    titulo: "RAIVA",
-  },
-  medo: {
-    url: "medo.html",
-    bg: "bg-black",
-    titulo: "MEDO",
-    fonteBranca: true,
-  },
-};
-
 const Link = ({ pagina }) => (
-  <span
-    className={`${Paginas[pagina].bg} ${
-      Paginas[pagina].fonteBranca ? "text-white" : ""
-    }`}
-  >
+  <span className={Paginas[pagina].bg}>
     <a href={Paginas[pagina].url}>{Paginas[pagina].titulo}</a>
   </span>
 );
