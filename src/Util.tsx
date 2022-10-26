@@ -2,6 +2,7 @@ import { createContext } from "react";
 
 import { CinzaClaro } from "./cores.js";
 import { FonteSubtitulo, FonteTexto, FonteTitulo } from "./fontes.js";
+import { Menu } from "./Menu.js";
 
 export const ColorContext = createContext("color");
 
@@ -13,30 +14,24 @@ export const Article = ({ children }) => (
   </>
 );
 
-export const ArticleHeader = ({ title, subtitle = "" }) => (
-  <ColorContext.Consumer>
-    {(ctx) => (
-      <div className={`${ctx} ${ctx === "bg-black" ? "text-white" : ""}`}>
-        <div className="text-center p-7">
-          <h1
-            className={`text-7xl py-1 ${FonteTitulo}`}
-            style={{ textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}` }}
-          >
-            {title}
-          </h1>
-          <h2
-            className={`text-4xl py-1 ${FonteSubtitulo}`}
-            style={{
-              fontFamily: "DM Sans",
-              textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}`,
-            }}
-          >
-            {subtitle}
-          </h2>
+export const ArticleHeader = ({ title }) => (
+  <>
+    <ColorContext.Consumer>
+      {(ctx) => (
+        <div className={ctx}>
+          <div className="text-center p-7">
+            <h1
+              className={`text-7xl py-1 ${FonteTitulo}`}
+              style={{ textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}` }}
+            >
+              {title}
+            </h1>
+          </div>
+          <Menu />
         </div>
-      </div>
-    )}
-  </ColorContext.Consumer>
+      )}
+    </ColorContext.Consumer>
+  </>
 );
 
 export const P = ({ children }) => <p className="py-1">{children}</p>;
@@ -106,7 +101,7 @@ export const Citacao = ({ atribuicao = "", children }) => (
 
 export const Creditos = () => (
   <div
-    className={`bg-black text-white py-5 text-lg flex flex-col md:flex-row align-center justify-around ${FonteSubtitulo}`}
+    className={`bg-black text-white py-5 text-xl flex flex-col md:flex-row align-center justify-around ${FonteSubtitulo}`}
     style={{ alignItems: "center" }}
   >
     <div className="bg-white max-w-xs">

@@ -5,18 +5,17 @@ import { Menu } from "./Menu.js";
 
 const Title = () => (
   <div
-    className={`text-5xl md:text-9xl text-center py-24 ${BG_AMARELO} ${TXT_ROSA} ${FonteTitulo}`}
+    className={`text-5xl md:text-9xl text-center ${BG_AMARELO} ${TXT_ROSA} ${FonteTitulo}`}
     style={{ textShadow: "0.3rem 0.3rem 0.3rem black" }}
   >
-    PSICOEDUCAÇÃO NA UNIVERSIDADE
+    <div className="py-24">PSICOEDUCAÇÃO NA UNIVERSIDADE</div>
+    <Menu />
   </div>
 );
 
 export const Home = () => (
   <div>
     <Title />
-
-    <Menu />
 
     <div className={`flex max-w-2xl mx-auto`}>
       <Content>

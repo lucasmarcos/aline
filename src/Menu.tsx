@@ -3,7 +3,10 @@ const EstiloHover = "hover:bg-white hover:text-black menu";
 const Sobre = () => (
   <div className={EstiloHover}>
     <button>SOBRE</button>
-    <ul className="menuItem" style={{ display: "none" }}>
+    <ul className="menuItem">
+      <li>
+        <a href="/">INICIO</a>
+      </li>
       <li>
         <a href="definicao.html">DEFINICOES</a>
       </li>
@@ -17,9 +20,21 @@ const Sobre = () => (
 const Emocs = () => (
   <div className={EstiloHover}>
     <button>NOSSAS EMOÇÕES</button>
-    <ul className="menuItem" style={{ display: "none" }}>
+    <ul className="menuItem">
       <li>
-        <a href=""></a>
+        <a href="alegria.html">ALEGRIA</a>
+      </li>
+      <li>
+        <a href="raiva.html">RAIVA</a>
+      </li>
+      <li>
+        <a href="medo.html">MEDO</a>
+      </li>
+      <li>
+        <a href="nojo.html">NOJO</a>
+      </li>
+      <li>
+        <a href="tristeza.html">TRISTEZA</a>
       </li>
     </ul>
   </div>
@@ -38,7 +53,7 @@ const Equipe = () => (
 );
 
 export const Menu = () => (
-  <div className="py-3 bg-black text-white text-xl flex flex-row align-center justify-around">
+  <div className="container mx-auto py-3 bg-black text-white text-xl flex flex-row align-center justify-around">
     <Sobre />
     <Emocs />
     <Refs />
