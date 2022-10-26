@@ -40,7 +40,7 @@ export const ArticleHeader = ({ title, subtitle = "" }) => (
 );
 
 export const P = ({ children }) => (
-  <p className={`py-1 ${FonteTexto}`}>{children}</p>
+  <p className={`py-1 text-justify ${FonteTexto}`}>{children}</p>
 );
 
 export const Refs = ({ children }) => (
