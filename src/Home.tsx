@@ -7,7 +7,7 @@ const Title = () => (
     className={`text-5xl md:text-9xl text-center py-24 ${BG_AMARELO} ${TXT_ROSA} ${FonteTitulo}`}
     style={{ textShadow: "0.3rem 0.3rem 0.3rem black" }}
   >
-    Psicoeducação na Universidade
+    PSICOEDUCAÇÃO NA UNIVERSIDADE
   </div>
 );
 
