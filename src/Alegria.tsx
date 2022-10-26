@@ -12,17 +12,10 @@ import {
   Referencia,
 } from "./Util.js";
 
-const Header = () => (
-  <ArticleHeader
-    title="Alegria"
-    subtitle="Vamos conversar sobre essa emoção?"
-  />
-);
-
 export const Alegria = () => (
   <ColorContext.Provider value="bg-yellow-300">
     <Article>
-      <Header />
+      <ArticleHeader title="ALEGRIA" />
       <Content>
         <BlocoEsquerda>
           <P>

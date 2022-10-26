@@ -56,7 +56,7 @@ const Link = ({ pagina }) => (
 export const Final = () => (
   <ColorContext.Provider value={BG_CINZA_CLARO}>
     <Article>
-      <ArticleHeader title="Que emoção é essa?" />
+      <ArticleHeader title="QUE EMOÇÃO É ESSA?" />
 
       <Content>
         <Centro>
@@ -142,8 +142,8 @@ export const Final = () => (
             Conhecer as emoções e perceber seus efeitos em nossas vidas, é o
             primeiro passo para aprender a lidar com elas.
           </P>
-	  </BlocoDireita>
-	  <BlocoEsquerda>
+        </BlocoDireita>
+        <BlocoEsquerda>
           <P>
             Compreendendo que uma classificação das emoções como “positivas” ou
             “negativas” é algo arriscado, pois dependemos e somos constituídos

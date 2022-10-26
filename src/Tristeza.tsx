@@ -15,10 +15,7 @@ export const Tristeza = () => {
   return (
     <ColorContext.Provider value="bg-blue-500">
       <Article>
-        <ArticleHeader
-          title="Tristeza"
-          subtitle="Vamos conversar sobre essa emoção?"
-        />
+        <ArticleHeader title="TRISTEZA" />
 
         <Content>
           <BlocoDireita>

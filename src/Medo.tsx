@@ -13,7 +13,7 @@ import {
 export const Medo = () => (
   <ColorContext.Provider value="bg-black">
     <Article>
-      <ArticleHeader title="Medo" subtitle="Que emoção é essa?" />
+      <ArticleHeader title="MEDO" />
 
       <Content>
         <BlocoDireita>

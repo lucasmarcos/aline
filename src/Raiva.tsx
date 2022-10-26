@@ -14,7 +14,7 @@ export const Raiva = () => {
   return (
     <ColorContext.Provider value="bg-red-500">
       <Article>
-        <ArticleHeader title="Raiva" subtitle="Que emoção é essa?" />
+        <ArticleHeader title="RAIVA" />
 
         <Content>
           <BlocoDireita>

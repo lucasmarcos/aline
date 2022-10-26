@@ -15,7 +15,7 @@ import {
 export const Definicao = () => (
   <ColorContext.Provider value={BG_CINZA_CLARO}>
     <Article>
-      <ArticleHeader title="Vamos falar sobre nossas emoções?" />
+      <ArticleHeader title="VAMOS FALAR SOBRE NOSSAS EMOÇÕES?" />
 
       <Content>
         <BlocoDireita>
