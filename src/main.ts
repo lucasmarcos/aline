@@ -12,6 +12,8 @@ import { Raiva } from "./Raiva.js";
 import { Social } from "./Social.js";
 import { Tristeza } from "./Tristeza.js";
 import { Home } from "./Home.js";
+import { Refs } from "./Refs.js";
+import { Equipe } from "./Equipe.js";
 
 import { writeFile } from "fs";
 
@@ -34,5 +36,7 @@ writePage("nojo.html", "Nojo", Nojo);
 writePage("raiva.html", "Raiva", Raiva);
 writePage("social.html", "Habilidades sociais", Social);
 writePage("tristeza.html", "Tristeza", Tristeza);
+writePage("refs.html", "Refs", Refs);
+writePage("equipe.html", "Equipe", Equipe);
 
 console.log("built");

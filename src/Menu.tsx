@@ -52,7 +52,7 @@ const Emocs = () => (
 const Refs = () => (
   <div>
     <div className={`${EstiloHover} px-3 text-white`}>
-      <a href="">REFERÊNCIAS</a>
+      <a href="refs.html">REFERÊNCIAS</a>
     </div>
   </div>
 );
@@ -60,7 +60,7 @@ const Refs = () => (
 const Equipe = () => (
   <div>
     <div className={`${EstiloHover} px-3 text-white`}>
-      <a href="">EQUIPE</a>
+      <a href="equipe.html">EQUIPE</a>
     </div>
   </div>
 );

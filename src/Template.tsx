@@ -12,8 +12,8 @@ export const Template = ({ title, children }) => (
         href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans&family=IBM+Plex+Sans&display=swap"
       />
     </head>
-    <body>
-      {children}
+    <body className="bg-black">
+      <div className="bg-white">{children}</div>
       <script src="main.js"></script>
     </body>
   </html>
