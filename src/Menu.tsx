@@ -1,16 +1,20 @@
-const EstiloHover = "hover:bg-white hover:text-black menu";
+import { FonteTitulo, FonteSubtitulo } from "./fontes.js";
+
+const EstiloHover = "hover:bg-white hover:text-black hover:font-bold";
 
 const Sobre = () => (
-  <div className={EstiloHover}>
-    <button>SOBRE</button>
-    <ul className="menuItem">
-      <li>
+  <div>
+    <div className={`text-white`}>
+      <button>SOBRE ▼</button>
+    </div>
+    <ul className={`${FonteSubtitulo} text-xl text-white`}>
+      <li className={EstiloHover}>
         <a href="/">INICIO</a>
       </li>
-      <li>
+      <li className={EstiloHover}>
         <a href="definicao.html">DEFINICOES</a>
       </li>
-      <li>
+      <li className={EstiloHover}>
         <a href="final.html">FINAL</a>
       </li>
     </ul>
@@ -18,22 +22,24 @@ const Sobre = () => (
 );
 
 const Emocs = () => (
-  <div className={EstiloHover}>
-    <button>NOSSAS EMOÇÕES</button>
-    <ul className="menuItem">
-      <li>
+  <div>
+    <div className={`text-white`}>
+      <button>NOSSAS EMOÇÕES ▼</button>
+    </div>
+    <ul className={`${FonteSubtitulo} text-center text-xl`}>
+      <li className={`${EstiloHover} bg-yellow-300`}>
         <a href="alegria.html">ALEGRIA</a>
       </li>
-      <li>
+      <li className={`${EstiloHover} bg-red-500`}>
         <a href="raiva.html">RAIVA</a>
       </li>
-      <li>
+      <li className={`${EstiloHover} bg-orange-500`}>
         <a href="medo.html">MEDO</a>
       </li>
-      <li>
+      <li className={`${EstiloHover} bg-green-500`}>
         <a href="nojo.html">NOJO</a>
       </li>
-      <li>
+      <li className={`${EstiloHover} bg-blue-500`}>
         <a href="tristeza.html">TRISTEZA</a>
       </li>
     </ul>
@@ -41,19 +47,25 @@ const Emocs = () => (
 );
 
 const Refs = () => (
-  <div className={EstiloHover}>
-    <a href="">REFERÊNCIAS</a>
+  <div>
+    <div className={`${EstiloHover} text-white`}>
+      <a href="">REFERÊNCIAS</a>
+    </div>
   </div>
 );
 
 const Equipe = () => (
-  <div className={EstiloHover}>
-    <a href="">EQUIPE</a>
+  <div>
+    <div className={`${EstiloHover} text-white`}>
+      <a href="">EQUIPE</a>
+    </div>
   </div>
 );
 
 export const Menu = () => (
-  <div className="container mx-auto py-3 bg-black text-white text-xl flex flex-row align-center justify-around">
+  <div
+    className={`container mx-auto py-3 bg-black text-2xl flex flex-row align-center justify-around ${FonteTitulo}`}
+  >
     <Sobre />
     <Emocs />
     <Refs />

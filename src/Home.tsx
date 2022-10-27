@@ -4,11 +4,13 @@ import { Creditos, P, Content } from "./Util.js";
 import { Menu } from "./Menu.js";
 
 const Title = () => (
-  <div
-    className={`text-5xl md:text-9xl text-center ${BG_AMARELO} ${TXT_ROSA} ${FonteTitulo}`}
-    style={{ textShadow: "0.3rem 0.3rem 0.3rem black" }}
-  >
-    <div className="py-24">PSICOEDUCAÇÃO NA UNIVERSIDADE</div>
+  <div className={`${BG_AMARELO}`}>
+    <div
+      className={`text-5xl md:text-9xl text-center py-24 ${FonteTitulo} ${TXT_ROSA}`}
+      style={{ textShadow: "0.3rem 0.3rem 0.3rem black" }}
+    >
+      PSICOEDUCAÇÃO NA UNIVERSIDADE
+    </div>
     <Menu />
   </div>
 );

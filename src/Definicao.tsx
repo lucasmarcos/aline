@@ -102,10 +102,6 @@ export const Definicao = () => (
       <div className={`${BG_PRETO} py-7`}>
         <Emocoes />
       </div>
-
-      <div className="text-center text-2xl my-7">
-        <a href="final.html">Final</a>
-      </div>
     </Article>
   </ColorContext.Provider>
 );
