@@ -2,4 +2,5 @@
 /out/
 /site/*
 !/site/utfpr.png
+!/site/main.js
 /bun.lockb
