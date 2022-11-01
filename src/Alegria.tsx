@@ -3,13 +3,11 @@ import {
   ArticleHeader,
   Content,
   P,
-  Refs,
   BlocoEsquerda,
   BlocoDireita,
   Citacao,
   Centro,
   ColorContext,
-  Referencia,
   Img,
 } from "./Util.js";
 
@@ -208,30 +206,6 @@ export const Alegria = () => (
           </P>
         </BlocoEsquerda>
       </Content>
-
-      <Refs>
-        <Referencia
-          autor="DALGALARRONDO, P"
-          livro="Psicopatologia e semiologia dos transtornos mentais"
-          local="Porto Alegre"
-          editora="Artes médicas Sul"
-          lancamento="2000"
-          link="https://books.google.com.br/books?id=8R5vDwAAQBAJ"
-        />
-
-        <Referencia
-          autor="EKMAN, P"
-          livro="A Linguagem das Emoções"
-          local="São Paulo, SP"
-          editora="Lua de Papel"
-          lancamento="2011"
-        />
-
-        <P>
-          GOLEMAN, D. Inteligência emocional [recurso eletrônico] / Daniel
-          Goleman & Marcos Santarrita. Rio de Janeiro : Objetiva, 2011.
-        </P>
-      </Refs>
     </Article>
   </ColorContext.Provider>
 );

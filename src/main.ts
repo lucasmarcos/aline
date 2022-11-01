@@ -2,7 +2,6 @@ import { renderToStaticMarkup } from "react-dom/server";
 
 import { Template } from "./Template.js";
 
-import { Index } from "./Index.js";
 import { Alegria } from "./Alegria.js";
 import { Definicao } from "./Definicao.js";
 import { Final } from "./Final.js";
@@ -12,7 +11,7 @@ import { Raiva } from "./Raiva.js";
 import { Social } from "./Social.js";
 import { Tristeza } from "./Tristeza.js";
 import { Inicio } from "./Inicio.js";
-import { Refs } from "./Refs.js";
+import { Referencias } from "./Refs.js";
 import { Equipe } from "./Equipe.js";
 import { Home } from "./Home.js";
 
@@ -37,7 +36,7 @@ writePage("nojo.html", "Nojo", Nojo);
 writePage("raiva.html", "Raiva", Raiva);
 writePage("social.html", "Habilidades sociais", Social);
 writePage("tristeza.html", "Tristeza", Tristeza);
-writePage("refs.html", "Refs", Refs);
+writePage("refs.html", "Refs", Referencias);
 writePage("equipe.html", "Equipe", Equipe);
 
 console.log("built");

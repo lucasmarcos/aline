@@ -159,12 +159,6 @@ export const Nojo = () => {
               p.98).
             </P>
           </BlocoDireita>
-          <Refs>
-            BARROS, D.M. O lado bom do lado ruim [recurso eletrônico]. Rio de
-            Janeiro: Sextante, 2020. Acesso em: 26 abr. 2022. GONDIM, S.M.G
-            (orgs.) Manual de Orientação e Autodesenvolvimento Emocional, 1ed.
-            São Paulo: Vetor Editora, 2020.
-          </Refs>
         </Content>
       </Article>
     </ColorContext.Provider>

@@ -121,21 +121,6 @@ export const Medo = () => (
           </P>
         </BlocoEsquerda>
       </Content>
-
-      <Refs>
-        <P>
-          BATISTA, GUEDES e GONDIM. Medo In: GODIM, S.M.G (orgs.) Manual de
-          Orientação e Autodesenvolvimento Emocional, 1ed. São Paulo: Vetor
-          Editora, 2020.
-        </P>
-        <P>
-          BAUMAN, Zygmunt. Medo líquido. Rio de Janeiro: Editora Zahar, 2008.
-          Edição digital: abril 2012
-        </P>
-        <P>
-          EKMAN, P. A Linguagem das Emoções, São Paulo, SP: Lua de Papel, 2011.
-        </P>
-      </Refs>
     </Article>
   </ColorContext.Provider>
 );

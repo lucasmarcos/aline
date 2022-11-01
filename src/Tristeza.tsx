@@ -107,34 +107,6 @@ export const Tristeza = () => {
             </P>
           </BlocoEsquerda>
         </Content>
-
-        <Refs>
-          <Referencia
-            autor="BOTEGA, N.J."
-            livro="A tristeza transforma, a depressão paralisa: um guia para pacientes e familiares"
-            local="São Paulo, SP"
-            editora="Benvirá"
-            lancamento="2018"
-          />
-          <Referencia
-            autor="DALGALARRONDO, P."
-            livro="Psicopatologia e semiologia dos transtornos mentais"
-            local="Porto Alegre"
-            editora="Artes médicas Sul"
-            lancamento="2000"
-          />
-          <Referencia
-            autor="EKMAN, P."
-            livro="A Linguagem das Emoções"
-            local="São Paulo, SP"
-            editora="Lua de Papel"
-            lancamento="2011"
-          />
-          GODIN, S.M.G (org.) Manual de Orientação e Autodesenvolvimento
-          Emocional, 1ed. São Paulo: Vetor Editora, 2020. GOLEMAN, D.
-          Inteligência emocional [recurso eletrônico] / Daniel Goleman ;trad.
-          Marcos Santarrita. – Rio de Janeiro : Objetiva, 2011.
-        </Refs>
       </Article>
     </ColorContext.Provider>
   );
