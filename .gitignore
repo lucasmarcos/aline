@@ -3,4 +3,5 @@
 /site/*
 !/site/utfpr.png
 !/site/main.js
+!/site/img
 /bun.lockb
