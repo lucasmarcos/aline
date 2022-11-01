@@ -10,6 +10,7 @@ import {
   Centro,
   ColorContext,
   Referencia,
+  Img,
 } from "./Util.js";
 
 export const Alegria = () => (
@@ -17,8 +18,8 @@ export const Alegria = () => (
     <Article>
       <ArticleHeader title="ALEGRIA" />
       <Content>
-        <img src="img/alegria/1.jpg" />
-        
+        <Img url="img/alegria/1.jpg" />
+
         <BlocoEsquerda>
           <P>
             A Universidade é composta por diferentes histórias, culturas,

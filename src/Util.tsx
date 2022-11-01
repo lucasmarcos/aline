@@ -131,3 +131,9 @@ export const Voltar = () => (
     <a href="/">Voltar</a>
   </div>
 );
+
+export const Img = ({ url }) => (
+  <div className="flex align-center justify-center">
+    <img src={url} />
+  </div>
+);
