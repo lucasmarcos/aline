@@ -8,6 +8,7 @@ import {
   Content,
   P,
   Refs,
+  Img,
 } from "./Util.js";
 
 export const Raiva = () => {
@@ -17,7 +18,7 @@ export const Raiva = () => {
         <ArticleHeader title="RAIVA" />
 
         <Content>
-          <img src="img/raiva/1.jpg" />
+          <Img url="img/raiva/1.jpg" />
 
           <BlocoDireita>
             <P>

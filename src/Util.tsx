@@ -118,6 +118,7 @@ export const Creditos = () => (
   </div>
 );
 
+/*
 const CallToAction = () => (
   <P>
     Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de cada
@@ -125,15 +126,18 @@ const CallToAction = () => (
     comunicação do Campus.
   </P>
 );
+*/
 
+/*
 export const Voltar = () => (
   <div>
     <a href="/">Voltar</a>
   </div>
 );
+*/
 
 export const Img = ({ url }) => (
-  <div className="flex align-center justify-center">
+  <div className="flex align-center justify-center max-w-md">
     <img src={url} />
   </div>
 );

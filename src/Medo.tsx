@@ -8,6 +8,7 @@ import {
   Content,
   P,
   Refs,
+  Img,
 } from "./Util.js";
 
 export const Medo = () => (
@@ -16,7 +17,7 @@ export const Medo = () => (
       <ArticleHeader title="MEDO" />
 
       <Content>
-        <img src="img/medo/1.jpg" />
+        <Img url="img/medo/1.jpg" />
 
         <BlocoDireita>
           <P>

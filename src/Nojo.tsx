@@ -8,6 +8,7 @@ import {
   Centro,
   BlocoEsquerda,
   Refs,
+  Img,
 } from "./Util.js";
 
 export const Nojo = () => {
@@ -17,7 +18,7 @@ export const Nojo = () => {
         <ArticleHeader title="NOJO" />
 
         <Content>
-          <img src="img/nojo/1.jpg" />
+          <Img url="img/nojo/1.jpg" />
 
           <BlocoDireita>
             <P>
