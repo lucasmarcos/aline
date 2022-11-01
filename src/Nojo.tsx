@@ -17,6 +17,8 @@ export const Nojo = () => {
         <ArticleHeader title="NOJO" />
 
         <Content>
+          <img src="img/nojo/1.jpg" />
+
           <BlocoDireita>
             <P>
               Hoje vamos falar de uma emoção que talvez não esteja elencada no

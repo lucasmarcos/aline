@@ -12,7 +12,10 @@ const Sobre = () => (
       className={`${FonteSubtitulo} text-xl text-white colapsar`}
     >
       <li className={`${EstiloHover} px-3`}>
-        <a href="/">INICIO</a>
+        <a href="/">HOME</a>
+      </li>
+      <li className={`${EstiloHover} px-3`}>
+        <a href="inicio.html">INICIO</a>
       </li>
       <li className={`${EstiloHover} px-3`}>
         <a href="definicao.html">DEFINICOES</a>

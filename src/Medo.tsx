@@ -16,6 +16,8 @@ export const Medo = () => (
       <ArticleHeader title="MEDO" />
 
       <Content>
+        <img src="img/medo/1.jpg" />
+
         <BlocoDireita>
           <P>
             O medo possui uma função básica de preservação de vida, pois é a

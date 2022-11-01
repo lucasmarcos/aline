@@ -11,9 +11,10 @@ import { Nojo } from "./Nojo.js";
 import { Raiva } from "./Raiva.js";
 import { Social } from "./Social.js";
 import { Tristeza } from "./Tristeza.js";
-import { Home } from "./Home.js";
+import { Inicio } from "./Inicio.js";
 import { Refs } from "./Refs.js";
 import { Equipe } from "./Equipe.js";
+import { Home } from "./Home.js";
 
 import { writeFile } from "fs";
 
@@ -26,8 +27,8 @@ const writePage = (file, title, content) => {
   writeFile(`./site/${file}`, page(title, content), () => {});
 };
 
-writePage("index.html", "Home", Home);
-writePage("home.html", "Bem-vindo", Index);
+writePage("index.html", "Bem-vindo", Home);
+writePage("inicio.html", "Inicio", Inicio);
 writePage("alegria.html", "Alegria", Alegria);
 writePage("definicao.html", "Definições", Definicao);
 writePage("final.html", "Parte final", Final);

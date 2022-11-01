@@ -17,6 +17,8 @@ export const Alegria = () => (
     <Article>
       <ArticleHeader title="ALEGRIA" />
       <Content>
+        <img src="img/alegria/1.jpg" />
+        
         <BlocoEsquerda>
           <P>
             A Universidade é composta por diferentes histórias, culturas,

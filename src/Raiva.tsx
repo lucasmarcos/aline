@@ -17,6 +17,8 @@ export const Raiva = () => {
         <ArticleHeader title="RAIVA" />
 
         <Content>
+          <img src="img/raiva/1.jpg" />
+
           <BlocoDireita>
             <P>
               Já parou pra pensar qual é a emoção despertada em nós após

@@ -18,6 +18,8 @@ export const Tristeza = () => {
         <ArticleHeader title="TRISTEZA" />
 
         <Content>
+          <img src="img/tristeza/1.jpg" />
+
           <BlocoDireita>
             <P>
               Depois de entender um pouco melhor como nossas emoções funcionam,
