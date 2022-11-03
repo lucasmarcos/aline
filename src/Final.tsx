@@ -111,7 +111,7 @@ export const Final = () => (
             primeiro passo para aprender a lidar com elas.
           </P>
         </BlocoDireita>
-        
+
         <BlocoEsquerda>
           <P>
             Compreendendo que uma classificação das emoções como “positivas” ou

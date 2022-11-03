@@ -38,7 +38,7 @@ export const Tristeza = () => {
               Vamos entender isso melhor?!
             </P>
           </Centro>
-         
+
           <BlocoEsquerda>
             <P>
               A literatura científica aponta que a emoção denominada tristeza
@@ -66,7 +66,7 @@ export const Tristeza = () => {
               tristeza.
             </P>
           </BlocoEsquerda>
-         
+
           <BlocoDireita>
             <P>
               E assim como sua origem, a forma como ela é expressa não é igual
@@ -86,7 +86,7 @@ export const Tristeza = () => {
               específicade agir quando está triste..
             </P>
           </BlocoDireita>
-         
+
           <BlocoEsquerda>
             <P>
               E, é importante que saibamos reconhecer quando estamos tristes,
@@ -114,7 +114,7 @@ export const Tristeza = () => {
               nos sentirmos alegres, também é nos sentirmos tristes.
             </P>
           </BlocoEsquerda>
-         
+
           <BlocoDireita>
             <P>
               A tristeza também possui a tendência de unir e fortalecer laços
@@ -128,7 +128,7 @@ export const Tristeza = () => {
               estimular mudanças.
             </P>
           </BlocoDireita>
-         
+
           <BlocoEsquerda>
             <P>
               Importante ressaltar que a tristeza é uma emoção, ou seja, ela é
