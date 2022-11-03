@@ -111,6 +111,7 @@ export const Final = () => (
             primeiro passo para aprender a lidar com elas.
           </P>
         </BlocoDireita>
+        
         <BlocoEsquerda>
           <P>
             Compreendendo que uma classificação das emoções como “positivas” ou
@@ -132,24 +133,6 @@ export const Final = () => (
           </P>
         </BlocoEsquerda>
       </Content>
-
-      <Refs>
-        <Referencia
-          autor="EKMAN, P."
-          livro="A Linguagem das Emoções"
-          local="São Paulo, SP"
-          editora="Lua de Papel"
-          lancamento="2011"
-        />
-
-        <Referencia
-          autor="GODIM, S.M.G (orgs.)"
-          livro="Manual de Orientação e Autodesenvolvimento Emocional, 1ed"
-          local="São Paulo"
-          editora="Vetor Editora"
-          lancamento="2020"
-        />
-      </Refs>
     </Article>
   </ColorContext.Provider>
 );

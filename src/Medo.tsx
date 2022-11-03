@@ -32,18 +32,21 @@ export const Medo = () => (
             cardíacos;
           </P>
         </BlocoDireita>
+        
         <Citacao atribuicao="EKMAN, 2011, p.172">
           podemos observar que as pálpebras superiores se elevam, sobrancelhas
           se erguem e se unem, maxilar se abre, o estômago reage, as mãos e a
           face se aquecem, a respiração se altera, fica mais profunda e rápida,
           alguns tremores podem ocorrer
         </Citacao>
+        
         <BlocoEsquerda>
           <P>
             Importante ressaltar que o medo desperta sensações e possui efeitos
             diferentes em cada um de nós
           </P>
         </BlocoEsquerda>
+        
         <Citacao
           atribuicao="BATISTA, GUEDES e GONDIM,
             2020, p.60"
@@ -75,6 +78,7 @@ export const Medo = () => (
           devemos temer pode ser vislumbrada em toda parte, mas em lugar algum
           se pode vê-la
         </Citacao>
+
         <BlocoEsquerda>
           <P>
             Na vida cotidiana, o medo é a principal emoção responsável pela
@@ -88,6 +92,9 @@ export const Medo = () => (
             intensamente, bloqueando nossas ações, nos impedindo de fazer o que
             precisamos e desejamos.
           </P>
+        </BlocoEsquerda>
+        
+        <BlocoDireita>
           <P>
             Esses medos exacerbados, desproporcionais e limitantes merecem
             atenção profissional, pois indicam a necessidade de um olhar mais
@@ -119,7 +126,7 @@ export const Medo = () => (
             bem como, possibilita o respeito e a empatia com os próprios estados
             emocionais e com o estado emocional do outro.
           </P>
-        </BlocoEsquerda>
+        </BlocoDireita>
       </Content>
     </Article>
   </ColorContext.Provider>

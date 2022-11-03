@@ -43,9 +43,11 @@ export const Nojo = () => {
               conseguir enumerar tantas outras.
             </P>
           </BlocoDireita>
+
           <Centro>
             <P>De onde vem o nojo?</P>
           </Centro>
+
           <BlocoEsquerda>
             <P>
               A origem do Nojo está atrelada a reações instintivas para proteger
@@ -63,6 +65,7 @@ export const Nojo = () => {
               sabor ruim, mas ainda não a aversão.
             </P>
           </BlocoEsquerda>
+
           <BlocoDireita>
             <P>
               Na adolescência ele surge diante de situações e objetos avaliados
@@ -79,6 +82,9 @@ export const Nojo = () => {
               educacional, que nos ensina a discriminar o que é nojento e de
               certa forma perigoso.
             </P>
+          </BlocoDireita>
+
+          <BlocoEsquerda>
             <P>
               Por isso, vemos pais e cuidadores distribuindo “cacas” em
               diferentes situações, como quando durante uma brincadeira no
@@ -97,7 +103,13 @@ export const Nojo = () => {
               disso, é o espetinho de insetos presente na cultura oriental e que
               no ocidente é visto como repulsivo.
             </P>
+          </BlocoEsquerda>
+
+          <Centro>
             <P>Você comeria um espetinho de barata?</P>
+          </Centro>
+
+          <BlocoDireita>
             <P>
               Não precisamos ir tão longe, existem pessoas que apreciam queijo
               roquefort, sashimi, bucho (dobradinha), enquanto outras passam
@@ -119,6 +131,9 @@ export const Nojo = () => {
               não podemos deixar de observar que ele também pode nos impedir de
               experimentar coisas novas.
             </P>
+          </BlocoDireita>
+
+          <BlocoEsquerda>
             <P>
               É fundamental que estejamos atentos para perceber quando ele é
               importante, e quando ele precisa ser enfrentado.
@@ -148,6 +163,9 @@ export const Nojo = () => {
               como respiração ofegante, taquicardia e tensão, mas quando falamos
               do nojo, o nosso corpo responde com um sinal diferenciado.
             </P>
+          </BlocoEsquerda>
+
+          <BlocoDireita>
             <P>
               O nojo pode desencadear náusea, que é uma resposta do organismo
               diante desta emoção, uma reação bem específica, o que facilita a

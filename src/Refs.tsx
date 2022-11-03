@@ -105,6 +105,24 @@ export const Referencias = () => (
         a expressão emocional, Psico-USF, Bragança Paulista, v. 20, n. 1, p.
         153-162, jan./abr. 2015.
       </Refs>
+
+      <Refs>
+        <Referencia
+          autor="EKMAN, P."
+          livro="A Linguagem das Emoções"
+          local="São Paulo, SP"
+          editora="Lua de Papel"
+          lancamento="2011"
+        />
+
+        <Referencia
+          autor="GODIM, S.M.G (orgs.)"
+          livro="Manual de Orientação e Autodesenvolvimento Emocional, 1ed"
+          local="São Paulo"
+          editora="Vetor Editora"
+          lancamento="2020"
+        />
+      </Refs>
     </div>
 
     <Creditos />

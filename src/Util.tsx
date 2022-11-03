@@ -15,23 +15,21 @@ export const Article = ({ children }) => (
 );
 
 export const ArticleHeader = ({ title }) => (
-  <>
-    <ColorContext.Consumer>
-      {(ctx) => (
-        <div className={ctx}>
-          <div className="text-center p-7">
-            <h1
-              className={`text-7xl py-1 ${FonteTitulo}`}
-              style={{ textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}` }}
-            >
-              {title}
-            </h1>
-          </div>
-          <Menu />
+  <ColorContext.Consumer>
+    {(ctx) => (
+      <div className={ctx}>
+        <div className="text-center p-7">
+          <h1
+            className={`text-7xl py-1 ${FonteTitulo}`}
+            style={{ textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}` }}
+          >
+            {title}
+          </h1>
         </div>
-      )}
-    </ColorContext.Consumer>
-  </>
+        <Menu />
+      </div>
+    )}
+  </ColorContext.Consumer>
 );
 
 export const P = ({ children }) => <p className="py-1">{children}</p>;
@@ -137,7 +135,7 @@ export const Voltar = () => (
 */
 
 export const Img = ({ url }) => (
-  <div className="flex align-center justify-center max-w-md">
+  <div className="flex align-center justify-center max-w-md mx-auto">
     <img src={url} />
   </div>
 );
