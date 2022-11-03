@@ -29,9 +29,11 @@ export const Raiva = () => {
               Já agiu tão impulsivamente, diante de algo que te enfureceu muito?
             </P>
           </BlocoDireita>
+
           <Centro>
             <P>Alcance</P>
           </Centro>
+
           <BlocoEsquerda>
             <P>
               Provavelmente, nesses momentos, a emoção predominante é a raiva.
@@ -50,12 +52,15 @@ export const Raiva = () => {
               raiva, tomar atitudes agressivas e até mesmo provocar violências.
             </P>
           </BlocoEsquerda>
+
           <Centro>
             <P>Vamos entender isso melhor?</P>
           </Centro>
+
           <Centro>
             <P>Turbulência</P>
           </Centro>
+
           <BlocoDireita>
             <P>
               A raiva surge em situações em que nos deparamos com um obstáculo
@@ -81,12 +86,14 @@ export const Raiva = () => {
               fatalidade ou como inevitáveis, tendemos a nos aborrecer menos.
             </P>
           </BlocoDireita>
+
           <Centro>
             <P>
               A RAIVA É UMA EMOÇÃO IMPULSIONADORA, CAPAZ DE NOS MOTIVAR PARA
               ENCARAR OS DESAFIOS DA VIDA
             </P>
           </Centro>
+
           <BlocoEsquerda>
             <P>Essa é uma excelente função.</P>
             <P>
@@ -94,57 +101,82 @@ export const Raiva = () => {
               assumidos partindo dessa motivação, ou seja, posso reagir
               impulsivamente e agir “de cabeça quente” porque estou com raiva,
               ou essa raiva pode ser uma inquietude, que me faz pensar sobre meu
-              problema e somente após isso, partir para alguma ação. A raiva,
-              mesmo sendo despertada por diferentes motivos, seja quando nos
-              sentimos ameaçados de perder algo, como status, autoridade,
-              dominância, alguma coisa física e/ou simbólica, em situações em
-              que percebemos que podemos ser prejudicados, ou seja, ela surge
-              como um impulso de defesa sobre o que é nosso, ou sobre o que
-              acreditamos ser nosso (BARROS, p. 77). São infinitas as situações
-              que podem desencadear raiva, tendo em vista ser um aspecto muito
-              pessoal, que diz respeito a individualidade e a singularidade de
-              cada sujeito, tem uma tendência a fazer com que as pessoas
-              processem as informações advindas do ambiente de forma mais
-              rápida. Contudo, esse processamento não leva em conta todo o
-              contexto, a raiva faz com que o sujeito crie um foco de atenção,
-              mais relevante para ele naquele momento, ignorando outros fatores
-              que poderiam ser relevantes para tomada de decisão (GONDIN, 2020).
+              problema e somente após isso, partir para alguma ação.
+            </P>
+            <P>
+              A raiva, mesmo sendo despertada por diferentes motivos, seja
+              quando nos sentimos ameaçados de perder algo, como status,
+              autoridade, dominância, alguma coisa física e/ou simbólica, em
+              situações em que percebemos que podemos ser prejudicados, ou seja,
+              ela surge como um impulso de defesa sobre o que é nosso, ou sobre
+              o que acreditamos ser nosso (BARROS, p. 77).
+            </P>
+          </BlocoEsquerda>
+
+          <BlocoDireita>
+            <P>
+              São infinitas as situações que podem desencadear raiva, tendo em
+              vista ser um aspecto muito pessoal, que diz respeito a
+              individualidade e a singularidade de cada sujeito, tem uma
+              tendência a fazer com que as pessoas processem as informações
+              advindas do ambiente de forma mais rápida.
+            </P>
+            <P>
+              Contudo, esse processamento não leva em conta todo o contexto, a
+              raiva faz com que o sujeito crie um foco de atenção, mais
+              relevante para ele naquele momento, ignorando outros fatores que
+              poderiam ser relevantes para tomada de decisão (GONDIN, 2020).
+            </P>
+          </BlocoDireita>
+
+          <BlocoEsquerda>
+            <P>
               APESAR DE SEREM DECISÕES RÁPIDAS, NEM SEMPRE SÃO EFICAZES E TENDEM
               A REPETIR PADRÕES OS QUAIS O SUJEITO JÁ ESTÁ ACOSTUMADO, POR ISSO,
               MUITAS VEZES AS PESSOAS, SE TORNAM AGRESSIVAS, DIANTE DE SITUAÇÕES
               QUE LHE DESPERTAM RAIVA. APRENDERAM A REAGIR DE ACORDO COM A RAIVA
               QUE SENTEM. SEGUNDO GOLEMAN (2011, P.94) “A RAIVA SE ALIMENTA DE
               RAIVA; O CÉREBRO EMOCIONAL ESQUENTA. A ESSA ALTURA, A RAIVA, NÃO
-              TOLHIDA PELA RAZÃO, FACILMENTE EXPLODE EM VIOLÊNCIA”. Quando
-              entendemos a raiva e aprendemos que agir momentaneamente sobre o
-              efeito imediato dessa emoção, não nos dá todas as condições de
-              analisar melhor a situação que a desencadeou, podemos entender que
-              é possível sentir raiva, sem necessariamente somente expressá-la
-              de modo agressivo. Percebemos que as vezes é necessário se afastar
-              do que gerou a raiva, para poder refletir melhor sobre como agir
-              da melhor forma possível. Podemos ainda entender, que a principal
-              função da raiva não é nos deixar passivos diante dos
-              acontecimentos da vida. Mesmo com um grande potencial de
-              desencadear violências e agressividades, quando bem entendida e
-              manejada, a raiva também é capaz de movimentar para mudanças
-              necessárias que temos ao longo de nossa trajetória. Percebe-se a
-              importância de uma avaliação sobre o que nos gera raiva, e mesmo
-              um questionamento sobre quais as melhores formas para lidar com
-              ela, bem como, uma avaliação sobre a dosagem de raiva com a qual
-              temos convivido em nosso dia-a-dia, pois quando ela deixa de ser
-              ocasional, e passa a nos dominar na maior parte do tempo e das
-              relações, ela sinaliza que talvez estejamos necessitando de ajuda
-              para compreender o que está ocorrendo, ela pode indicar a
-              necessidade de acompanhamento profissional, a necessidade de
-              algumas mudanças em nossa vida. Como posto por Vigotsky (2004), a
-              emoção é um processo passível de desenvolvimento e transformação,
-              a partir da consciência, da relação entre estados emocionais e
-              estados intelectuais (MACHADO, FACCI e BARROCO, 2011, p.653). Ou
-              seja, além dos aspectos biológicos, a forma como reagimos às
+              TOLHIDA PELA RAZÃO, FACILMENTE EXPLODE EM VIOLÊNCIA”.
+            </P>
+            <P>
+              Quando entendemos a raiva e aprendemos que agir momentaneamente
+              sobre o efeito imediato dessa emoção, não nos dá todas as
+              condições de analisar melhor a situação que a desencadeou, podemos
+              entender que é possível sentir raiva, sem necessariamente somente
+              expressá-la de modo agressivo. Percebemos que as vezes é
+              necessário se afastar do que gerou a raiva, para poder refletir
+              melhor sobre como agir da melhor forma possível. Podemos ainda
+              entender, que a principal função da raiva não é nos deixar
+              passivos diante dos acontecimentos da vida.
+            </P>
+          </BlocoEsquerda>
+
+          <BlocoDireita>
+            <P>
+              Mesmo com um grande potencial de desencadear violências e
+              agressividades, quando bem entendida e manejada, a raiva também é
+              capaz de movimentar para mudanças necessárias que temos ao longo
+              de nossa trajetória. Percebe-se a importância de uma avaliação
+              sobre o que nos gera raiva, e mesmo um questionamento sobre quais
+              as melhores formas para lidar com ela, bem como, uma avaliação
+              sobre a dosagem de raiva com a qual temos convivido em nosso
+              dia-a-dia, pois quando ela deixa de ser ocasional, e passa a nos
+              dominar na maior parte do tempo e das relações, ela sinaliza que
+              talvez estejamos necessitando de ajuda para compreender o que está
+              ocorrendo, ela pode indicar a necessidade de acompanhamento
+              profissional, a necessidade de algumas mudanças em nossa vida.
+              Como posto por Vigotsky (2004), a emoção é um processo passível de
+              desenvolvimento e transformação, a partir da consciência, da
+              relação entre estados emocionais e estados intelectuais (MACHADO,
+              FACCI e BARROCO, 2011, p.653).
+            </P>
+            <P>
+              Ou seja, além dos aspectos biológicos, a forma como reagimos às
               emoções, irá depender também da percepção psicológica diante dela,
               e tal percepção está em constante transformação e desenvolvimento.
             </P>
-          </BlocoEsquerda>
+          </BlocoDireita>
         </Content>
       </Article>
     </ColorContext.Provider>
