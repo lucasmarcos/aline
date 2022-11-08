@@ -18,7 +18,6 @@ const Title = () => (
 export const Referencias = () => (
   <div>
     <Title />
-    <div>REFS</div>
 
     <div>
       <Refs>
