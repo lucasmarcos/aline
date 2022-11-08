@@ -10,6 +10,7 @@ import {
   ColorContext,
   Content,
   P,
+  LinkProPdf,
 } from "./Util.js";
 
 export const Definicao = () => (
@@ -102,6 +103,8 @@ export const Definicao = () => (
       <div className={`${BG_PRETO} py-7`}>
         <Emocoes />
       </div>
+
+      <LinkProPdf url="definicoes.pdf" />
     </Article>
   </ColorContext.Provider>
 );

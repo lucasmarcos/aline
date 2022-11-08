@@ -11,6 +11,7 @@ import {
   Citacao,
   Centro,
   P,
+  LinkProPdf,
 } from "./Util.js";
 
 const Link = ({ pagina }) => (
@@ -131,6 +132,8 @@ export const Final = () => (
           </P>
         </BlocoEsquerda>
       </Content>
+
+      <LinkProPdf url="final.pdf" />
     </Article>
   </ColorContext.Provider>
 );

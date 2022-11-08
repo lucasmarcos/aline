@@ -52,6 +52,15 @@ const Inicio = () => (
   </div>
 );
 
+const Defs = () => (
+  <div>
+    <div className={`${EstiloHover} text-white`}>
+      <a href="definicao.html">DEFINIÇÔES</a>
+    </div>
+  </div>
+);
+
+
 const Resumo = () => (
   <div>
     <div className={`${EstiloHover} text-white`}>
@@ -65,6 +74,7 @@ export const Menu = () => (
     className={`${BG_ROXO} py-3 text-2xl flex flex-row align-center justify-around ${FonteTitulo}`}
   >
     <Inicio />
+    <Defs />
     <Emocs />
     <Refs />
     <Resumo />

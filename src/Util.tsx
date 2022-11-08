@@ -125,7 +125,7 @@ export const Img = ({ url }) => (
 );
 
 export const LinkProPdf = ({ url }) => (
-  <div className="mx-auto text-xl">
-    <a href={`/pdf/${url}`}>PDF</a>
+  <div className="text-center text-3xl">
+    <a href={`/pdf/${url}`}>Você pode baixar esse conteúdo em formato PDF clicando aqui.</a>
   </div>
 );

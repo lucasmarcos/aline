@@ -1,23 +1,27 @@
-caixa alta
-text justificado
-referencias (da pagina inicial, ou em pagina separada)
-logo da universidade
-vamos conhecer nossas emocoes
-tirar o subtitulo
-seperar os paragrafos
-titulo e link da pagina final
+#! caixa alta
+#! text justificado
+#! referencias (da pagina inicial, ou em pagina separada)
+#! logo da universidade
+#! vamos conhecer nossas emocoes
+#! tirar o subtitulo
+#! seperar os paragrafos
+#! titulo e link da pagina final
+
 pagina de recepcao
   foto botao
     sobre, nossas emocoes, referencias, equipe, contato
-cor do medo
+
+#!cor do medo
 
 ---
 
-preto creditos trocar pelo roxo
-protagonismo estudantil / meu nome  eng software
-tirar menu sobre 
-primeira pagia ser
+#! preto creditos trocar pelo roxo
+#! protagonismo estudantil / meu nome  eng software
+#! tirar menu sobre 
+#! primeira pagia ser
+
 referencias por texto
-conteudo em pdf
-por um breve resumo no menu
-tirar botao equipe
+
+#! conteudo em pdf
+#! por um breve resumo no menu
+#! tirar botao equipe
