@@ -1,4 +1,4 @@
-import { CinzaEscuro } from "./cores.js";
+import { Roxo } from "./cores.js";
 import { FonteTitulo } from "./fontes.js";
 
 export const Paginas = {
@@ -39,13 +39,13 @@ const Emocao = ({ pagina }) => (
     <div className={`${pagina.bg} p-7`}>
       <div
         className={`text-center text-3xl ${FonteTitulo}`}
-        style={{ textShadow: `0.1rem 0.1rem 0.3rem #${CinzaEscuro}` }}
+        style={{ textShadow: `0.1rem 0.1rem 0.3rem #${Roxo}` }}
       >
         {pagina.titulo}
       </div>
       <div
         className="text-center text-7xl p-3"
-        style={{ textShadow: `0.1rem 0.1rem 0.3rem #${CinzaEscuro}` }}
+        style={{ textShadow: `0.1rem 0.1rem 0.3rem #${Roxo}` }}
       >
         {pagina.emoji}
       </div>

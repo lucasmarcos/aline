@@ -1,3 +1,4 @@
+import { BG_ROXO } from "./cores.js";
 import { FonteTitulo, FonteSubtitulo } from "./fontes.js";
 
 const EstiloHover = "hover:bg-white hover:text-black hover:font-bold px-3";
@@ -61,7 +62,7 @@ const Resumo = () => (
 
 export const Menu = () => (
   <div
-    className={`container mx-auto py-3 bg-black text-2xl flex flex-row align-center justify-around ${FonteTitulo}`}
+    className={`${BG_ROXO} container mx-auto py-3 text-2xl flex flex-row align-center justify-around ${FonteTitulo}`}
   >
     <Inicio />
     <Emocs />

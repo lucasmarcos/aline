@@ -1,4 +1,4 @@
-import { BG_CINZA_CLARO, BG_PRETO } from "./cores.js";
+import { BG_CINZA, BG_PRETO } from "./cores.js";
 import { Emocoes } from "./Emocoes.js";
 
 import {
@@ -13,7 +13,7 @@ import {
 } from "./Util.js";
 
 export const Definicao = () => (
-  <ColorContext.Provider value={BG_CINZA_CLARO}>
+  <ColorContext.Provider value={BG_CINZA}>
     <Article>
       <ArticleHeader title="VAMOS FALAR SOBRE NOSSAS EMOÇÕES?" />
 

@@ -1,4 +1,4 @@
-import { BG_CINZA_CLARO } from "./cores.js";
+import { BG_CINZA } from "./cores.js";
 import { Paginas } from "./Emocoes.js";
 
 import {
@@ -11,8 +11,6 @@ import {
   Citacao,
   Centro,
   P,
-  Refs,
-  Referencia,
 } from "./Util.js";
 
 const Link = ({ pagina }) => (
@@ -22,7 +20,7 @@ const Link = ({ pagina }) => (
 );
 
 export const Final = () => (
-  <ColorContext.Provider value={BG_CINZA_CLARO}>
+  <ColorContext.Provider value={BG_CINZA}>
     <Article>
       <ArticleHeader title="QUE EMOÇÃO É ESSA?" />
 

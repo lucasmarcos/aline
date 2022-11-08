@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-import { CinzaClaro } from "./cores.js";
+import { Cinza, BG_ROXO } from "./cores.js";
 import { FonteSubtitulo, FonteTexto, FonteTitulo } from "./fontes.js";
 import { Menu } from "./Menu.js";
 
@@ -21,7 +21,7 @@ export const ArticleHeader = ({ title }) => (
         <div className="text-center p-7">
           <h1
             className={`text-7xl py-1 ${FonteTitulo}`}
-            style={{ textShadow: `0.1rem 0.1rem 0.1rem #${CinzaClaro}` }}
+            style={{ textShadow: `0.1rem 0.1rem 0.1rem #${Cinza}` }}
           >
             {title}
           </h1>
@@ -99,7 +99,7 @@ export const Citacao = ({ atribuicao = "", children }) => (
 
 export const Creditos = () => (
   <div
-    className={`bg-black text-white py-5 text-xl flex flex-col md:flex-row align-center justify-around ${FonteSubtitulo}`}
+    className={`${BG_ROXO} text-white py-5 text-xl flex flex-col md:flex-row align-center justify-around ${FonteSubtitulo}`}
     style={{ alignItems: "center" }}
   >
     <div className="bg-white max-w-xs">
