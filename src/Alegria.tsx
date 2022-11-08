@@ -9,6 +9,7 @@ import {
   Centro,
   ColorContext,
   Img,
+  LinkProPdf,
 } from "./Util.js";
 
 export const Alegria = () => (
@@ -206,6 +207,8 @@ export const Alegria = () => (
           </P>
         </BlocoEsquerda>
       </Content>
+
+      <LinkProPdf url="alegria.pdf" />
     </Article>
   </ColorContext.Provider>
 );

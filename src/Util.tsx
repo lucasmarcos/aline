@@ -107,35 +107,25 @@ export const Creditos = () => (
     </div>
     <div>
       <P>Projeto Psicoeducação na Universidade</P>
-      <P> COGERH/NUAPE - Campus Dois Vizinhos</P>
+      <P>Protagonismo Estudantil</P>
+      <P>COGERH/NUAPE - Campus Dois Vizinhos</P>
     </div>
     <div>
       <P>Aline Anacleto Marchesan CRP 08/14785</P>
       <P>Danieli Ghedin Sartori CRP 08/14368</P>
+      <P>Lucas da Silva Marcos - Estudante de Engenharia de Software</P>
     </div>
   </div>
 );
 
-/*
-const CallToAction = () => (
-  <P>
-    Se você gostou e quer aprender mais, fique atento, todo dia 07 e 17 de cada
-    mês publicaremos textos que serão veiculados pelos principais meios de
-    comunicação do Campus.
-  </P>
-);
-*/
-
-/*
-export const Voltar = () => (
-  <div>
-    <a href="/">Voltar</a>
-  </div>
-);
-*/
-
 export const Img = ({ url }) => (
   <div className="flex align-center justify-center max-w-md mx-auto">
     <img src={url} />
+  </div>
+);
+
+export const LinkProPdf = ({ url }) => (
+  <div className="mx-auto text-xl">
+    <a href={`/pdf/${url}`}>PDF</a>
   </div>
 );

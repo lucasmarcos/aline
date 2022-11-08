@@ -13,7 +13,6 @@ import { Tristeza } from "./Tristeza.js";
 import { Inicio } from "./Inicio.js";
 import { Referencias } from "./Refs.js";
 import { Equipe } from "./Equipe.js";
-import { Home } from "./Home.js";
 
 import { writeFile } from "fs";
 
@@ -26,8 +25,7 @@ const writePage = (file, title, content) => {
   writeFile(`./site/${file}`, page(title, content), () => {});
 };
 
-writePage("index.html", "Bem-vindo", Home);
-writePage("inicio.html", "Inicio", Inicio);
+writePage("index.html", "Inicio", Inicio);
 writePage("alegria.html", "Alegria", Alegria);
 writePage("definicao.html", "Definições", Definicao);
 writePage("final.html", "Parte final", Final);

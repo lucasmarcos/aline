@@ -43,10 +43,18 @@ const Equipe = () => (
   </div>
 );
 
+const Inicio = () => (
+  <div>
+    <div className={`${EstiloHover} text-white`}>
+      <a href="/">INICIO</a>
+    </div>
+  </div>
+);
+
 const Resumo = () => (
   <div>
     <div className={`${EstiloHover} text-white`}>
-      <a href="">RESUMO</a>
+      <a href="final.html">RESUMO</a>
     </div>
   </div>
 );
@@ -55,6 +63,7 @@ export const Menu = () => (
   <div
     className={`container mx-auto py-3 bg-black text-2xl flex flex-row align-center justify-around ${FonteTitulo}`}
   >
+    <Inicio />
     <Emocs />
     <Refs />
     <Resumo />
