@@ -60,7 +60,6 @@ const Defs = () => (
   </div>
 );
 
-
 const Resumo = () => (
   <div>
     <div className={`${EstiloHover} text-white`}>

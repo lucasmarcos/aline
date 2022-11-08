@@ -147,7 +147,7 @@ export const Tristeza = () => {
           </BlocoEsquerda>
         </Content>
 
-	<LinkProPdf url="tristeza.pdf" />
+        <LinkProPdf url="tristeza.pdf" />
       </Article>
     </ColorContext.Provider>
   );

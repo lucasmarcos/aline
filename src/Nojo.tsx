@@ -179,7 +179,7 @@ export const Nojo = () => {
           </BlocoDireita>
         </Content>
 
-	<LinkProPdf url="nojo.pdf" />
+        <LinkProPdf url="nojo.pdf" />
       </Article>
     </ColorContext.Provider>
   );

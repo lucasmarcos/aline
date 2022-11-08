@@ -179,7 +179,7 @@ export const Raiva = () => {
           </BlocoDireita>
         </Content>
 
-	<LinkProPdf url="raiva.pdf" />
+        <LinkProPdf url="raiva.pdf" />
       </Article>
     </ColorContext.Provider>
   );
