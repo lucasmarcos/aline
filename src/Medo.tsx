@@ -7,8 +7,8 @@ import {
   ColorContext,
   Content,
   P,
-  Refs,
   Img,
+  LinkProPdf,
 } from "./Util.js";
 
 export const Medo = () => (
@@ -128,6 +128,8 @@ export const Medo = () => (
           </P>
         </BlocoDireita>
       </Content>
+
+      <LinkProPdf url="medo.pdf" />
     </Article>
   </ColorContext.Provider>
 );

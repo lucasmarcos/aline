@@ -7,8 +7,8 @@ import {
   ColorContext,
   Content,
   P,
-  Refs,
   Img,
+  LinkProPdf,
 } from "./Util.js";
 
 export const Raiva = () => {
@@ -178,6 +178,8 @@ export const Raiva = () => {
             </P>
           </BlocoDireita>
         </Content>
+
+	<LinkProPdf url="raiva.pdf" />
       </Article>
     </ColorContext.Provider>
   );

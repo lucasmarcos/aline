@@ -7,8 +7,8 @@ import {
   ColorContext,
   Centro,
   BlocoEsquerda,
-  Refs,
   Img,
+  LinkProPdf,
 } from "./Util.js";
 
 export const Nojo = () => {
@@ -178,6 +178,8 @@ export const Nojo = () => {
             </P>
           </BlocoDireita>
         </Content>
+
+	<LinkProPdf url="nojo.pdf" />
       </Article>
     </ColorContext.Provider>
   );

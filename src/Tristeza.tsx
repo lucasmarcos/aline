@@ -5,11 +5,10 @@ import {
   Content,
   P,
   ColorContext,
-  Referencia,
-  Refs,
   Centro,
   BlocoEsquerda,
   Img,
+  LinkProPdf,
 } from "./Util.js";
 
 export const Tristeza = () => {
@@ -147,6 +146,8 @@ export const Tristeza = () => {
             </P>
           </BlocoEsquerda>
         </Content>
+
+	<LinkProPdf url="tristeza.pdf" />
       </Article>
     </ColorContext.Provider>
   );
